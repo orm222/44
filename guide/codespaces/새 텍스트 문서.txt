@@ -1,0 +1,9 @@
+내용	파일
+문제 원문	problem-project/SPEC.md
+담당자 인터뷰 질문·실제 답변	problem-project/INTERVIEW.md
+담당자와 합의한 운영 기준·조건	같은 INTERVIEW.md에 기록
+하네스가 정리한 확정 요구사항·합의 문서	problem-project/CONFIRMED_REQUIREMENTS.md — 자동 생성 후 사용자 확인
+기능명세서	problem-project/FUNCTIONAL_SPEC.md — 자동 생성 후 사용자 확인
+
+
+즉, 처음 준비할 파일은 SPEC.md와 INTERVIEW.md 두 개입니다. 인터뷰와 합의 내용을 INTERVIEW.md에 기록하면 하네스가 확정 문서와 기능명세서로 정리합니다. 아직 합의하지 않은 조건은 ‘미정’으로 적으면 됩니다.
