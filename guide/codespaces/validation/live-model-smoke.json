@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "model": "gpt-6-astra",
+  "python": "3.9.25",
+  "result": {
+    "status": "ok"
+  },
+  "usage": {
+    "input_tokens": 17959,
+    "cached_input_tokens": 0,
+    "output_tokens": 15,
+    "reported": true
+  },
+  "actual_codex_call": true,
+  "scope": "One strict JSON response via the configured CLI; not an entire task or Docker/browser validation",
+  "exit_record": {
+    "version": 1,
+    "started_at": "2026-11-05T08:16:05.306144+00:00",
+    "finished_at": "2026-11-05T08:16:25.918170+00:00",
+    "exit_code": 0,
+    "seconds": 20.625,
+    "termination_reason": "completed",
+    "error": null,
+    "cleanup": {
+      "attempted": true,
+      "completed": true,
+      "error": null
+    }
+  },
+  "original_evidence_sha256": {
+    "model.command.json": "b90dc0d6e7545a5d253d042d71aed2ddbada419e08465856705d4bcc2eaa569f",
+    "model.exit.json": "b6a4385769dfc457781033066889a38af30c41fe14a87dbc7876383eb29c6cee",
+    "model.input.txt": "6f00e3007b532a731c81e8ebb2ed869e607bdcb6a8f4fea94df5512356650dde",
+    "model.launch.json": "52ed4f934200b325f1a76c882123c67ba792c57dac2fc3d9e870b44ba734df54",
+    "model.receipt.json": "660a0323c4ab42eca8f1744bbfd703df6e4fb98db89f0559720499ba64c7f824",
+    "model.request.json": "e7479fdcd30a0115982fcc422056ca35116f6bb78b26ee32cdb1c04475494b62",
+    "model.running.json": "29016b9bce075be38974af8cbdbc80f89f48cfb69bbced98d66ba9e4a74c91c0",
+    "model.stderr.log": "2a32da96434a62b7fe7fe6fa1ff282f25db19d0ac45e01015d42763e607c1a26",
+    "model.stdout.log": "8fc6e83cf7d0b351398dd5567d1155514f32efe0656c90675144f2cac8d94c89"
+  },
+  "first_attempt": "Desktop sandbox denied writes to Codex state. The bounded retry with approved permissions succeeded. No credentials are included."
+}

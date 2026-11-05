@@ -1,0 +1,124 @@
+{
+  "before": {
+    "module_sha256": "450fc7f75d0c25843a11afd38e541165278cceb11b9c6fc32506880f7989f44e",
+    "wide_csv": {
+      "returned": 40,
+      "omitted": 11,
+      "kinds": [
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value"
+      ]
+    },
+    "naive_csv": {
+      "kinds": [
+        "timeseries_input_issue",
+        "timeseries_input_issue",
+        "baseline_unavailable",
+        "comparison_unavailable"
+      ]
+    }
+  },
+  "after": {
+    "module_sha256": "5abcf6c6630934841ffa705303f64d29aa0afbe49be1ae21b16fc1e482b5e55a",
+    "wide_csv": {
+      "returned": 40,
+      "omitted": 11,
+      "kinds": [
+        "i_limit_candidate",
+        "mr_limit_candidate",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value",
+        "iqr_candidate",
+        "missing_value"
+      ]
+    },
+    "naive_csv": {
+      "kinds": [
+        "i_limit_candidate",
+        "mr_limit_candidate"
+      ]
+    }
+  },
+  "unit_test_run": {
+    "python": "3.9.25",
+    "run": 20,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 3.716,
+    "exit_code": 0,
+    "command": "python -B -m unittest discover -s .harness/tests -p test_data_checks.py -v"
+  },
+  "unit_test_source_sha256": "523297e58b70c5cee48c6e4771c0f5e27e50d0d3a1a1b87b915c88f3c5351816"
+}

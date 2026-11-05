@@ -1,0 +1,15 @@
+test_actual_exit_after_completed_journal_reuses_exact_submission (test_answer_recovery.AnswerRecoveryTests.test_actual_exit_after_completed_journal_reuses_exact_submission) ... ok
+test_actual_exit_after_json_before_completion_recovers (test_answer_recovery.AnswerRecoveryTests.test_actual_exit_after_json_before_completion_recovers) ... ok
+test_actual_exit_between_markdown_and_json_recovers_without_duplicate (test_answer_recovery.AnswerRecoveryTests.test_actual_exit_between_markdown_and_json_recovers_without_duplicate) ... ok
+test_actual_exit_with_partial_json_temporary_recovers (test_answer_recovery.AnswerRecoveryTests.test_actual_exit_with_partial_json_temporary_recovers) ... ok
+test_distinct_answer_and_post_analysis_resubmission_remain_revisions (test_answer_recovery.AnswerRecoveryTests.test_distinct_answer_and_post_analysis_resubmission_remain_revisions) ... ok
+test_partial_intent_has_not_changed_boundary_and_same_retry_recovers (test_answer_recovery.AnswerRecoveryTests.test_partial_intent_has_not_changed_boundary_and_same_retry_recovers) ... ok
+test_pending_journal_tampering_is_rejected (test_answer_recovery.AnswerRecoveryTests.test_pending_journal_tampering_is_rejected) ... ok
+test_reanalysis_recovers_answer_and_runs_only_requested_analysis (test_answer_recovery.AnswerRecoveryTests.test_reanalysis_recovers_answer_and_runs_only_requested_analysis) ... ok
+test_status_recovers_without_config_or_any_model_call (test_answer_recovery.AnswerRecoveryTests.test_status_recovers_without_config_or_any_model_call) ... ok
+test_unexpected_user_edit_is_not_overwritten (test_answer_recovery.AnswerRecoveryTests.test_unexpected_user_edit_is_not_overwritten) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 42.882s
+
+OK

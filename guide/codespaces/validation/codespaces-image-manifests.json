@@ -1,0 +1,25 @@
+[
+  {
+    "image": "library/python:3.9.25-slim-bookworm",
+    "available": true,
+    "digest": "sha256:a02e9c5406c416c504d6c9a1a306ff4080c3173f1008d192f953bd20382a2d5c",
+    "amd64": true
+  },
+  {
+    "image": "library/node:24-bookworm-slim",
+    "available": true,
+    "digest": "sha256:6042915a8b58012e6699f998ed96bca43ec9d8582447bdb68bc2445d0fafeb79",
+    "amd64": true
+  },
+  {
+    "image": "library/postgres:17-bookworm",
+    "available": true,
+    "digest": "sha256:839fbb5a4942a7758dd93e18b42ea5649807491a0545b5eeeb8f0b8bb11857a5",
+    "amd64": true
+  },
+  {
+    "image": "mcr.microsoft.com/devcontainers/python:1.1.4-3.9-bookworm",
+    "available": true,
+    "digest": "sha256:69f1e01426b4ab488a82f0cc4cb1bc28d13a08121a0042a704975e0f47dabeb2"
+  }
+]

@@ -1,0 +1,43 @@
+test_deadline_guard_stops_child_between_heavy_checks (test_lifecycle.GuardCadenceTests.test_deadline_guard_stops_child_between_heavy_checks) ... ok
+test_default_heavy_guard_is_five_seconds_and_final_check_is_unconditional (test_lifecycle.GuardCadenceTests.test_default_heavy_guard_is_five_seconds_and_final_check_is_unconditional) ... ok
+test_invalid_interval_is_rejected_before_launch (test_lifecycle.GuardCadenceTests.test_invalid_interval_is_rejected_before_launch) ... ok
+test_short_process_final_guard_detects_changes_between_polls (test_lifecycle.GuardCadenceTests.test_short_process_final_guard_detects_changes_between_polls) ... ok
+test_zero_interval_checks_each_poll_and_still_checks_after_exit (test_lifecycle.GuardCadenceTests.test_zero_interval_checks_each_poll_and_still_checks_after_exit) ... ok
+test_cleanup_failure_cannot_be_recorded_as_success (test_lifecycle.LifecycleTests.test_cleanup_failure_cannot_be_recorded_as_success) ... ok
+test_normal_nonzero_and_launch_failure_have_outcomes (test_lifecycle.LifecycleTests.test_normal_nonzero_and_launch_failure_have_outcomes) ... ok
+test_post_cleanup_guard_detects_a_last_descendant_write (test_lifecycle.LifecycleTests.test_post_cleanup_guard_detects_a_last_descendant_write) ... ok
+test_running_marker_write_failure_still_cleans_started_process (test_lifecycle.LifecycleTests.test_running_marker_write_failure_still_cleans_started_process) ... ERROR
+test_timeout_guard_failure_and_cancellation_preserve_errors_and_cleanup (test_lifecycle.LifecycleTests.test_timeout_guard_failure_and_cancellation_preserve_errors_and_cleanup) ... ok
+
+======================================================================
+ERROR: test_running_marker_write_failure_still_cleans_started_process (test_lifecycle.LifecycleTests.test_running_marker_write_failure_still_cleans_started_process)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Python313\Lib\shutil.py", line 625, in _rmtree_unsafe
+    os.unlink(fullname)
+    ~~~~~~~~~^^^^^^^^^^
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'D:\\CODEXT~1\\harness lifecycle _cciqih_\\marker-failure.input.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python313\Lib\tempfile.py", line 954, in cleanup
+    self._rmtree(self.name, ignore_errors=self._ignore_cleanup_errors)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\tempfile.py", line 934, in _rmtree
+    _shutil.rmtree(name, onexc=onexc)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\shutil.py", line 790, in rmtree
+    return _rmtree_unsafe(path, onexc)
+  File "C:\Python313\Lib\shutil.py", line 629, in _rmtree_unsafe
+    onexc(os.unlink, fullname, err)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\tempfile.py", line 909, in onexc
+    _os.unlink(path)
+    ~~~~~~~~~~^^^^^^
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'D:\\CODEXT~1\\harness lifecycle _cciqih_\\marker-failure.input.txt'
+
+----------------------------------------------------------------------
+Ran 10 tests in 7.904s
+
+FAILED (errors=1)

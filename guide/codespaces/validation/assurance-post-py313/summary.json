@@ -1,0 +1,23 @@
+{
+  "label": "post-py313",
+  "python": "C:/Python313/python.exe",
+  "version": "Python 3.13.5",
+  "tests": 10,
+  "skipped": 0,
+  "passed": true,
+  "seconds": 9.389,
+  "modules": [
+    {
+      "module": "test_lifecycle",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 10,
+      "seconds": 9.347,
+      "log": "validation\\assurance-post-py313\\test_lifecycle.log",
+      "sha256": "b3c304d56dc22465072c5e8a38b74a5ca79dbad92a1cf71add83eb3d5eb7693d"
+    }
+  ],
+  "supplemental_modules": [
+    "test_lifecycle"
+  ]
+}

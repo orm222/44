@@ -1,0 +1,31 @@
+test_agent_detects_dependency_write_even_when_gitignored (test_development_runtime.RuntimeTests) ... ok
+test_agent_nonzero_or_invalid_result_never_repeats_same_attempt (test_development_runtime.RuntimeTests) ... ok
+test_agent_recovery_ignores_only_new_operation_lock_lease (test_development_runtime.RuntimeTests) ... ok
+test_agent_refuses_changed_input_or_result_evidence (test_development_runtime.RuntimeTests) ... ok
+test_agent_result_and_token_usage_are_recovered_without_model_call (test_development_runtime.RuntimeTests) ... ok
+test_command_inspection_never_reexecutes_or_requires_remaining_budget (test_development_runtime.RuntimeTests) ... ok
+test_completed_agent_reply_survives_result_publication_interruption (test_development_runtime.RuntimeTests) ... ok
+test_historical_agent_verification_accepts_later_source_but_rejects_lost_log (test_development_runtime.RuntimeTests) ... ok
+test_invalid_agent_reply_requires_new_attempt_instead_of_repeating (test_development_runtime.RuntimeTests) ... ok
+test_nonzero_command_records_failure_without_repeating (test_development_runtime.RuntimeTests) ... ok
+test_partial_usage_preserves_unknown_fields (test_development_runtime.RuntimeTests) ... ok
+test_patch_add_modify_delete_and_recover_between_files (test_development_runtime.RuntimeTests) ... ok
+test_patch_publication_rechecks_unaffected_files_after_writes (test_development_runtime.RuntimeTests) ... ok
+test_patch_recovery_refuses_ignored_file_change (test_development_runtime.RuntimeTests) ... ok
+test_patch_recovery_refuses_user_target_edit (test_development_runtime.RuntimeTests) ... ok
+test_patch_rejects_unapproved_paths_and_runtime_metadata (test_development_runtime.RuntimeTests) ... ok
+test_real_command_runs_once_and_validates_logs_on_replay (test_development_runtime.RuntimeTests) ... ok
+test_record_intent_recovers_every_publication_boundary (test_development_runtime.RuntimeTests) ... ok
+test_record_intent_refuses_unexpected_user_target (test_development_runtime.RuntimeTests) ... ok
+test_records_reject_tampering_and_resume_partial_atomic_write (test_development_runtime.RuntimeTests) ... ok
+test_request_change_and_expired_budget_block_new_execution (test_development_runtime.RuntimeTests) ... ok
+test_schema_does_not_accept_bool_as_number_or_unknown_fields (test_development_runtime.RuntimeTests) ... ok
+test_snapshot_includes_ignored_and_dependency_files (test_development_runtime.RuntimeTests) ... ok
+test_snapshot_rejects_hardlinks (test_development_runtime.RuntimeTests) ... ok
+test_started_execution_without_exit_cannot_repeat (test_development_runtime.RuntimeTests) ... ok
+test_unrelated_preparation_is_preserved_and_rejected (test_development_runtime.RuntimeTests) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 45.912s
+
+OK

@@ -1,0 +1,13 @@
+test_existing_receipt_enforced_even_without_config_flag (test_clarify_deadline.ClarifyDeadlineTests) ... ok
+test_expired_status_reads_saved_json_without_repairing_partial_markdown (test_clarify_deadline.ClarifyDeadlineTests) ... ok
+test_ready_check_rejected_after_wait_while_status_is_read_only (test_clarify_deadline.ClarifyDeadlineTests) ... ok
+test_required_receipt_missing_does_not_implicitly_start_or_launch (test_clarify_deadline.ClarifyDeadlineTests) ... ok
+test_short_real_process_is_stopped_at_remaining_deadline (test_clarify_deadline.ClarifyDeadlineTests) ... ok
+test_staged_analysis_uses_origin_clock_without_copying_receipt (test_clarify_deadline.ClarifyDeadlineTests) ... ok
+test_submitted_answer_survives_deadline_but_reanalysis_never_launches (test_clarify_deadline.ClarifyDeadlineTests) ... ok
+test_valid_response_journal_is_preserved_without_publishing_ready_after_expiry (test_clarify_deadline.ClarifyDeadlineTests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 13.622s
+
+OK

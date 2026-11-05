@@ -1,0 +1,49 @@
+{
+  "role": "implementer",
+  "expected_model": "gpt-6.1-sol",
+  "python": "3.9.25",
+  "actual_codex_call": true,
+  "scope": "Synthetic strict JSON response through the configured harness role; no user problem files or Docker/browser execution",
+  "passed": true,
+  "selected_model": "gpt-6.1-sol",
+  "result": {
+    "status": "ok"
+  },
+  "usage": {
+    "input_tokens": 18006,
+    "cached_input_tokens": 0,
+    "output_tokens": 27,
+    "reported": true
+  },
+  "exit_record": {
+    "version": 1,
+    "started_at": "2026-11-05T08:57:30.392817+00:00",
+    "finished_at": "2026-11-05T08:58:26.092969+00:00",
+    "exit_code": 0,
+    "seconds": 55.703999999997905,
+    "termination_reason": "completed",
+    "error": null,
+    "cleanup": {
+      "attempted": true,
+      "completed": true,
+      "error": null
+    }
+  },
+  "recovery_without_new_call": true,
+  "original_evidence_sha256": {
+    "agent-request.json": "30f8f2023ef24f2387cea084c3db4632c1109c2471d3373ada54f6f4e9e2da94",
+    "agent-result.json": "9b0fc90b60c000c2f7c7e2bc8d8fac2d3fa0634f9a23fae105e7afa262ac1095",
+    "answer.json": "a29ee2b15c494311c52521766e44af56a3ad2248e7a8ab465e5206463c13d288",
+    "model.command.json": "8706ec1b43b635132d14b92d228e849cd8a802905a2464fbd91b442eef485d44",
+    "model.exit.json": "734117fbe39bb7c7e313330bd714e28687f5de2e46df7bb70df36a3ba0e551a2",
+    "model.input.txt": "6f00e3007b532a731c81e8ebb2ed869e607bdcb6a8f4fea94df5512356650dde",
+    "model.launch.json": "2634a1dd7c2400c865365f3b152cc48b86183d908fb09e7ae9b338289261e3bd",
+    "model.receipt.json": "a1a9bff694881751e413acd8c79f46786bc767ed6ffe121042faa7fbc505f97c",
+    "model.request.json": "6c73d11d566af7ec771790693e4ba9b30282860681322bb08900e58fe3d8579b",
+    "model.running.json": "d7a4aa8864fe559811d95d8ca8322612de26b23bc093b6a8a81fe9140e925ea6",
+    "model.stderr.log": "ddcad4b458b58a486c3d937fa1434345df92c3c7ecbae3ac7ecf14bc0ddb0981",
+    "model.stdout.log": "66e082efe9a45e9f26316bdd52104071584daf44ba1b3a171e51baf1ca5d6f4e",
+    "prompt.txt": "6f00e3007b532a731c81e8ebb2ed869e607bdcb6a8f4fea94df5512356650dde",
+    "schema.json": "c7124e2c7cb644c79435130d36456aa38ee30bb9496c8e40983f4c16a54cdfe9"
+  }
+}

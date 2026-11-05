@@ -1,0 +1,10 @@
+test_explicit_deferral_preserves_actual_answers_and_both_confirmation_stops (test_question_policy.DeferralFlowTests.test_explicit_deferral_preserves_actual_answers_and_both_confirmation_stops) ... ok
+test_data_rows_production_lines_and_interview_sections_are_allowed (test_question_policy.QuestionPolicyTests.test_data_rows_production_lines_and_interview_sections_are_allowed) ... ok
+test_legacy_answer_bytes_stay_valid_until_an_actual_answer_changes (test_question_policy.QuestionPolicyTests.test_legacy_answer_bytes_stay_valid_until_an_actual_answer_changes) ... ok
+test_new_question_labels_are_korean_and_actual_answers_are_unchanged (test_question_policy.QuestionPolicyTests.test_new_question_labels_are_korean_and_actual_answers_are_unchanged) ... ok
+test_separate_source_labels_pages_and_unfilled_placeholders_still_fail (test_question_policy.QuestionPolicyTests.test_separate_source_labels_pages_and_unfilled_placeholders_still_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 61.717s
+
+OK

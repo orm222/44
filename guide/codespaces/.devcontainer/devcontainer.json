@@ -1,0 +1,12 @@
+{
+  "name": "Python 3.9 harness + web/PostgreSQL",
+  "build": {"dockerfile": "Dockerfile", "context": "."},
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:4": {}
+  },
+  "remoteUser": "vscode",
+  "forwardPorts": [3000],
+  "portsAttributes": {"3000": {"label": "SvelteKit web", "onAutoForward": "notify"}},
+  "postCreateCommand": "python --version && node --version && codex --version",
+  "customizations": {"vscode": {"extensions": ["svelte.svelte-vscode", "ms-python.python"]}}
+}

@@ -1,0 +1,28 @@
+[STEP] PLAN_REVIEW
+[STEP] RED
+[STEP] IMPLEMENT
+[STEP] REVIEW
+[AGENT] coordinator / 0001-5312ef1c8dfa — 실행 또는 저장된 결과 복구
+[STEP] PLAN
+[AGENT] coordinator / 0002-498cab8d80cf — 실행 또는 저장된 결과 복구
+[STEP] PLAN_REVIEW
+[AGENT] reviewer / 0003-f8a842a2a665 — 실행 또는 저장된 결과 복구
+[AGENT] coordinator / 0001-f881c5fdf855 — 실행 또는 저장된 결과 복구
+[STEP] PLAN
+[AGENT] coordinator / 0002-847319a6b4dc — 실행 또는 저장된 결과 복구
+[STEP] PLAN
+[AGENT] coordinator / 0003-d16e2e5c0c75 — 실행 또는 저장된 결과 복구
+[STEP] PLAN
+[AGENT] coordinator / 0004-c4167a89da1c — 실행 또는 저장된 결과 복구
+[STEP] PLAN_REVIEW
+[AGENT] reviewer / 0005-ed6f267caf4a — 실행 또는 저장된 결과 복구
+[AGENT] coordinator / 0001-e23497f48538 — 실행 또는 저장된 결과 복구
+test_gate_elapsed_spans_plan_review_and_all_implementation_phases (test_controller_plan_errors.ControllerPlanErrorsTests) ... ok
+test_semantically_invalid_plan_is_retired_then_retried_with_new_key (test_controller_plan_errors.ControllerPlanErrorsTests) ... ok
+test_three_invalid_plans_gate_and_resume_never_replays_old_cached_result (test_controller_plan_errors.ControllerPlanErrorsTests) ... ok
+test_unknown_execution_is_not_retired_as_invalid_plan (test_controller_plan_errors.ControllerPlanErrorsTests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 35.722s
+
+OK

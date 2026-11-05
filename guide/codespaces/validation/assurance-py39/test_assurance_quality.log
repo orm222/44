@@ -1,0 +1,29 @@
+test_absolute_regression_budget_uses_declared_units (test_assurance_quality.AlgorithmQualityTests) ... ok
+test_constraint_violation_cannot_be_hidden_by_better_objective (test_assurance_quality.AlgorithmQualityTests) ... ok
+test_contract_limits_candidates_and_requires_approved_thresholds (test_assurance_quality.AlgorithmQualityTests) ... ok
+test_decimal_threshold_does_not_add_an_unapproved_tolerance (test_assurance_quality.AlgorithmQualityTests) ... ok
+test_duplicate_missing_and_unknown_rows_are_rejected (test_assurance_quality.AlgorithmQualityTests) ... ok
+test_every_case_candidate_pair_is_required (test_assurance_quality.AlgorithmQualityTests) ... ok
+test_exact_small_fixture_and_actual_hashes_are_reported (test_assurance_quality.AlgorithmQualityTests) ... ok
+test_exact_zero_is_handled_without_invented_denominator (test_assurance_quality.AlgorithmQualityTests) ... ok
+test_fixture_path_cannot_escape_problem_root (test_assurance_quality.AlgorithmQualityTests) ... ok
+test_infeasible_alternative_is_excluded_without_hiding_feasible_results (test_assurance_quality.AlgorithmQualityTests) ... ok
+test_infeasible_baseline_is_not_a_valid_regression_claim (test_assurance_quality.AlgorithmQualityTests) ... ok
+test_maximize_negative_objectives_use_absolute_exact_denominator (test_assurance_quality.AlgorithmQualityTests) ... ok
+test_measurement_input_hash_is_checked_against_real_bytes (test_assurance_quality.AlgorithmQualityTests) ... ok
+test_missing_extra_constraint_metrics_and_duplicate_json_keys_are_rejected (test_assurance_quality.AlgorithmQualityTests) ... ok
+test_nonfinite_boolean_metrics_and_trusted_pass_flags_are_rejected (test_assurance_quality.AlgorithmQualityTests) ... ok
+test_relative_gap_and_direction_bound_are_separate_checks (test_assurance_quality.AlgorithmQualityTests) ... ok
+test_unknown_exact_remains_unmeasured (test_assurance_quality.AlgorithmQualityTests) ... ok
+test_default_discovery_does_not_force_missing_stack_or_probe_ports (test_assurance_quality.EnvironmentQualityTests) ... ok
+test_invalid_request_rejects_boolean_ports_and_unknown_fields (test_assurance_quality.EnvironmentQualityTests) ... ok
+test_inventory_is_complete_in_report_and_bounded_in_planner_summary (test_assurance_quality.EnvironmentQualityTests) ... ok
+test_missing_requested_tool_or_package_is_blocked (test_assurance_quality.EnvironmentQualityTests) ... ok
+test_only_explicit_loopback_ports_are_tested_without_remote_connection (test_assurance_quality.EnvironmentQualityTests) ... ok
+test_requested_packages_are_metadata_only_and_no_command_is_executed (test_assurance_quality.EnvironmentQualityTests) ... ok
+test_unavailable_requested_port_is_not_passed (test_assurance_quality.EnvironmentQualityTests) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 8.853s
+
+OK

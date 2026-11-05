@@ -1,0 +1,17 @@
+{
+  "tests": 8,
+  "failures": 0,
+  "checks": [
+    "built Node server readiness",
+    "Korean HTML response",
+    "POST proxy through Node",
+    "GET proxy through Node",
+    "framework rejects non-JSON cross-origin form before mutation",
+    "preserve upstream error status",
+    "probe save/read receipt against fake API (not PostgreSQL persistence)",
+    "upstream outage returns 503"
+  ],
+  "real_postgresql": false,
+  "real_browser": false,
+  "production_dependencies_only": true
+}

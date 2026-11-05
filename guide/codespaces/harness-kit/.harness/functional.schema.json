@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["functional_spec_markdown"],
+  "properties": {
+    "functional_spec_markdown": {"type": "string"}
+  }
+}

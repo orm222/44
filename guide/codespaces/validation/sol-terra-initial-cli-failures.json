@@ -1,0 +1,60 @@
+[
+  {
+    "role": "coordinator",
+    "model": "gpt-6.1-sol",
+    "cli_version": "0.155.1",
+    "error": {
+      "type": "error",
+      "status": 400,
+      "error": {
+        "type": "invalid_request_error",
+        "message": "The 'gpt-6.1-sol' model is not supported when using Codex with a ChatGPT account.",
+        "code": "model_not_found"
+      }
+    },
+    "exit_record": {
+      "version": 1,
+      "started_at": "2026-11-05T08:50:38.878481+00:00",
+      "finished_at": "2026-11-05T08:51:05.755828+00:00",
+      "exit_code": 1,
+      "seconds": 26.875,
+      "termination_reason": "completed",
+      "error": null,
+      "cleanup": {
+        "attempted": true,
+        "completed": true,
+        "error": null
+      }
+    },
+    "stdout_sha256": "294c6ed2966988317eb3cba31276f661de061a190d16fe91c597fb11a8e171fe"
+  },
+  {
+    "role": "implementer",
+    "model": "gpt-6.1-sol",
+    "cli_version": "0.155.1",
+    "error": {
+      "type": "error",
+      "status": 400,
+      "error": {
+        "type": "invalid_request_error",
+        "message": "The 'gpt-6.1-sol' model is not supported when using Codex with a ChatGPT account.",
+        "code": "model_not_found"
+      }
+    },
+    "exit_record": {
+      "version": 1,
+      "started_at": "2026-11-05T08:51:10.184923+00:00",
+      "finished_at": "2026-11-05T08:51:24.758882+00:00",
+      "exit_code": 1,
+      "seconds": 14.562999999994645,
+      "termination_reason": "completed",
+      "error": null,
+      "cleanup": {
+        "attempted": true,
+        "completed": true,
+        "error": null
+      }
+    },
+    "stdout_sha256": "2286ad60b80d506d7f4a4e614d5a759150288d41c7a53bdca1c8226abd8e69f2"
+  }
+]

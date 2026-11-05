@@ -1,0 +1,53 @@
+test_deadline_guard_stops_child_between_heavy_checks (test_lifecycle.GuardCadenceTests) ... ok
+test_default_heavy_guard_is_five_seconds_and_final_check_is_unconditional (test_lifecycle.GuardCadenceTests) ... ok
+test_invalid_interval_is_rejected_before_launch (test_lifecycle.GuardCadenceTests) ... ok
+test_short_process_final_guard_detects_changes_between_polls (test_lifecycle.GuardCadenceTests) ... ok
+test_zero_interval_checks_each_poll_and_still_checks_after_exit (test_lifecycle.GuardCadenceTests) ... ok
+test_cleanup_failure_cannot_be_recorded_as_success (test_lifecycle.LifecycleTests) ... ok
+test_normal_nonzero_and_launch_failure_have_outcomes (test_lifecycle.LifecycleTests) ... ok
+test_post_cleanup_guard_detects_a_last_descendant_write (test_lifecycle.LifecycleTests) ... ok
+test_running_marker_write_failure_still_cleans_started_process (test_lifecycle.LifecycleTests) ... ERROR
+test_timeout_guard_failure_and_cancellation_preserve_errors_and_cleanup (test_lifecycle.LifecycleTests) ... ok
+
+======================================================================
+ERROR: test_running_marker_write_failure_still_cleans_started_process (test_lifecycle.LifecycleTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Codex\2026-10-30\new-chat-3\work\runtimes\cpython-3.9-windows-x86_64-none\lib\shutil.py", line 627, in _rmtree_unsafe
+    os.unlink(fullname)
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'D:\\CODEXT~1\\harness lifecycle 2cvofbcj\\marker-failure.input.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Codex\2026-10-30\new-chat-3\work\runtimes\cpython-3.9-windows-x86_64-none\lib\tempfile.py", line 814, in onerror
+    _os.unlink(path)
+PermissionError: [WinError 32] 다른 프로세스가 파일을 사용 중이기 때문에 프로세스가 액세스 할 수 없습니다: 'D:\\CODEXT~1\\harness lifecycle 2cvofbcj\\marker-failure.input.txt'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Codex\2026-10-30\new-chat-3\work\runtimes\cpython-3.9-windows-x86_64-none\lib\tempfile.py", line 843, in cleanup
+    self._rmtree(self.name)
+  File "D:\Codex\2026-10-30\new-chat-3\work\runtimes\cpython-3.9-windows-x86_64-none\lib\tempfile.py", line 825, in _rmtree
+    _shutil.rmtree(name, onerror=onerror)
+  File "D:\Codex\2026-10-30\new-chat-3\work\runtimes\cpython-3.9-windows-x86_64-none\lib\shutil.py", line 759, in rmtree
+    return _rmtree_unsafe(path, onerror)
+  File "D:\Codex\2026-10-30\new-chat-3\work\runtimes\cpython-3.9-windows-x86_64-none\lib\shutil.py", line 629, in _rmtree_unsafe
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "D:\Codex\2026-10-30\new-chat-3\work\runtimes\cpython-3.9-windows-x86_64-none\lib\tempfile.py", line 817, in onerror
+    cls._rmtree(path)
+  File "D:\Codex\2026-10-30\new-chat-3\work\runtimes\cpython-3.9-windows-x86_64-none\lib\tempfile.py", line 825, in _rmtree
+    _shutil.rmtree(name, onerror=onerror)
+  File "D:\Codex\2026-10-30\new-chat-3\work\runtimes\cpython-3.9-windows-x86_64-none\lib\shutil.py", line 759, in rmtree
+    return _rmtree_unsafe(path, onerror)
+  File "D:\Codex\2026-10-30\new-chat-3\work\runtimes\cpython-3.9-windows-x86_64-none\lib\shutil.py", line 610, in _rmtree_unsafe
+    onerror(os.scandir, path, sys.exc_info())
+  File "D:\Codex\2026-10-30\new-chat-3\work\runtimes\cpython-3.9-windows-x86_64-none\lib\shutil.py", line 607, in _rmtree_unsafe
+    with os.scandir(path) as scandir_it:
+NotADirectoryError: [WinError 267] 디렉터리 이름이 올바르지 않습니다: 'D:\\CODEXT~1\\harness lifecycle 2cvofbcj\\marker-failure.input.txt'
+
+----------------------------------------------------------------------
+Ran 10 tests in 8.450s
+
+FAILED (errors=1)

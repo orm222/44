@@ -1,0 +1,50 @@
+test_after_json_before_completion (test_analysis_recovery.AnalysisRecoveryTests) ... ok
+test_completed_pointer_before_caller_acknowledgment_does_not_resample (test_analysis_recovery.AnalysisRecoveryTests) ... ok
+test_prelaunch_before_prompt_publication_resumes_same_intent (test_analysis_recovery.AnalysisRecoveryTests) ... ok
+test_raw_completed_response_cannot_change_before_validation (test_analysis_recovery.AnalysisRecoveryTests) ... ok
+test_saved_response_evidence_cannot_change_after_validation (test_analysis_recovery.AnalysisRecoveryTests) ... ok
+test_link_retarget_during_snapshot_is_rejected (test_analysis_recovery.ClarificationSnapshotTests) ... ok
+test_actual_exit_after_completed_journal_reuses_exact_submission (test_answer_recovery.AnswerRecoveryTests) ... ok
+test_distinct_answer_and_post_analysis_resubmission_remain_revisions (test_answer_recovery.AnswerRecoveryTests) ... ok
+test_status_recovers_without_config_or_any_model_call (test_answer_recovery.AnswerRecoveryTests) ... ok
+test_check_ready_resolves_the_config_actual_project (test_boundary.BoundaryTests) ... ok
+test_nonzero_cli_and_readonly_source_mutation_invalidate_prior_ready (test_boundary.BoundaryTests) ... ok
+test_unanswered_questions_cannot_be_erased_by_a_zero_question_report (test_boundary.BoundaryTests) ... ok
+test_expired_status_reads_saved_json_without_repairing_partial_markdown (test_clarify_deadline.ClarifyDeadlineTests) ... ok
+test_staged_analysis_uses_origin_clock_without_copying_receipt (test_clarify_deadline.ClarifyDeadlineTests) ... ok
+test_baseline_candidates_survive_many_auxiliary_column_findings (test_data_checks.DataCheckTests) ... ok
+test_finite_timestamps_with_overflowing_difference_do_not_form_limits (test_data_checks.DataCheckTests) ... ok
+test_iqr_is_explicitly_exploratory_and_deterministic_with_exact_hashes (test_data_checks.DataCheckTests) ... ok
+test_naive_time_axis_retains_overlap_and_order_guards (test_data_checks.DataCheckTests) ... ok
+test_runtime_traversal_duplicate_and_self_baseline_paths_are_rejected (test_data_checks.DataCheckTests) ... ok
+test_csv_and_baseline_are_hashed_and_cannot_be_omitted_from_model_references (test_data_flow.DataFlowTests) ... ok
+test_editing_input_during_functional_generation_requires_new_parent_approval (test_document_retry.DocumentRetryTests) ... ok
+test_incomplete_cleanup_remains_blocked_even_after_an_input_edit (test_document_retry.DocumentRetryTests) ... ok
+test_invalid_model_json_empty_document_and_wrong_shape_can_retry (test_document_retry.DocumentRetryTests) ... ok
+test_unreferenced_source_edit_after_functional_success_requires_parent_approval_again (test_document_retry.DocumentRetryTests) ... ok
+test_changed_input_requires_new_requirements_approval_before_new_functional (test_functional.FunctionalTests) ... ok
+test_functional_document_tampering_is_not_adopted_or_overwritten (test_functional.FunctionalTests) ... ok
+test_returned_mismatch_and_internal_file_cannot_confirm_functional (test_functional.FunctionalTests) ... ok
+test_self_checksummed_command_or_answers_cannot_be_registered (test_functional_registration.FunctionalRegistrationTests) ... ok
+test_default_root_api_and_unstarted_status_are_read_only (test_interview.InterviewTests) ... ok
+test_missing_interview_or_missing_source_reference_stops_before_model (test_interview.InterviewTests) ... ok
+test_default_heavy_guard_is_five_seconds_and_final_check_is_unconditional (test_lifecycle.GuardCadenceTests) ... ok
+test_cleanup_failure_cannot_be_recorded_as_success (test_lifecycle.LifecycleTests) ... ok
+test_timeout_guard_failure_and_cancellation_preserve_errors_and_cleanup (test_lifecycle.LifecycleTests) ... ok
+test_corrupt_transplanted_and_forged_deadline_rejected (test_problem_time.ProblemTimeTests) ... ok
+test_expiry_includes_wait_and_status_remains_readable (test_problem_time.ProblemTimeTests) ... ok
+test_missing_legacy_receipt_and_required_or_deleted_receipt (test_problem_time.ProblemTimeTests) ... ok
+test_old_python_is_rejected_before_all_commands (test_python_version.PythonVersionTests) ... ok
+test_new_question_labels_are_korean_and_actual_answers_are_unchanged (test_question_policy.QuestionPolicyTests) ... ok
+test_deadline_expiring_during_final_confirmation_scan_cannot_publish_confirmed (test_requirements.RequirementsTests) ... ok
+test_failed_worker_keeps_evidence_and_retries_once_per_invocation (test_requirements.RequirementsTests) ... ok
+test_interrupted_confirmation_reuses_saved_receipt_without_model (test_requirements.RequirementsTests) ... ok
+test_resigned_invalid_paths_and_document_hash_are_rejected (test_requirements.RequirementsTests) ... ok
+test_worker_cannot_change_the_nonowned_clarification_journal (test_requirements.RequirementsTests) ... ok
+test_normal_exit_and_timeout_both_clean_up_spawned_children (test_runtime_support.RuntimeSupportTests) ... ok
+test_reanalysis_cannot_cite_its_previous_documents_as_new_evidence (test_source_inputs.SourceInputTests) ... ok
+
+----------------------------------------------------------------------
+Ran 45 tests in 309.272s
+
+OK

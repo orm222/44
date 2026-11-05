@@ -1,0 +1,7 @@
+test_generated_documents_cannot_replace_the_original_problem (test_source_inputs.SourceInputTests.test_generated_documents_cannot_replace_the_original_problem) ... ok
+test_reanalysis_cannot_cite_its_previous_documents_as_new_evidence (test_source_inputs.SourceInputTests.test_reanalysis_cannot_cite_its_previous_documents_as_new_evidence) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 3.805s
+
+OK

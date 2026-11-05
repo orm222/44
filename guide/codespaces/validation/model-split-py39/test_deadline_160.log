@@ -1,0 +1,14 @@
+test_changed_config_cannot_extend_or_shorten_saved_receipt (test_deadline_160.DeadlineCompatibilityTests) ... ok
+test_completed_legacy_receipt_is_read_and_restarted_without_rewrite (test_deadline_160.DeadlineCompatibilityTests) ... ok
+test_legacy_anchor_without_limit_keeps_150_and_original_timestamp (test_deadline_160.DeadlineCompatibilityTests) ... ok
+test_legacy_pending_anchor_without_limit_does_not_gain_ten_minutes (test_deadline_160.DeadlineCompatibilityTests) ... ok
+test_new_config_without_limit_persists_160_before_receipt (test_deadline_160.DeadlineCompatibilityTests) ... ok
+test_new_pending_anchor_keeps_160_without_resetting_start (test_deadline_160.DeadlineCompatibilityTests) ... ok
+test_unconfigured_legacy_receipt_remains_150 (test_deadline_160.DeadlineCompatibilityTests) ... ok
+test_existing_document_gate_keeps_150 (test_deadline_160.DocumentGateDeadlineTests) ... ok
+test_new_document_gate_uses_160_and_accepts_estimate_above_150 (test_deadline_160.DocumentGateDeadlineTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 14.927s
+
+OK

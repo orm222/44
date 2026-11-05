@@ -1,0 +1,10 @@
+{
+  "spec": "SPEC.md",
+  "interview": "INTERVIEW.md",
+  "data_files": [],
+  "model": "gpt-6.1-sol",
+  "reviewer_model": "gpt-5.6-terra",
+  "codex_command": ["codex"],
+  "problem_time_limit_seconds": 9600,
+  "document_stage_minutes": {"requirements": 15, "functional": 10}
+}

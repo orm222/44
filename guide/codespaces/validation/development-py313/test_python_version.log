@@ -1,0 +1,6 @@
+test_old_python_is_rejected_before_all_commands (test_python_version.PythonVersionTests.test_old_python_is_rejected_before_all_commands) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.036s
+
+OK

@@ -1,0 +1,49 @@
+{
+  "role": "reviewer",
+  "expected_model": "gpt-5.6-terra",
+  "python": "3.9.25",
+  "actual_codex_call": true,
+  "scope": "Synthetic strict JSON response through the configured harness role; no user problem files or Docker/browser execution",
+  "passed": true,
+  "selected_model": "gpt-5.6-terra",
+  "result": {
+    "status": "ok"
+  },
+  "usage": {
+    "input_tokens": 17129,
+    "cached_input_tokens": 0,
+    "output_tokens": 15,
+    "reported": true
+  },
+  "exit_record": {
+    "version": 1,
+    "started_at": "2026-11-05T08:57:30.277901+00:00",
+    "finished_at": "2026-11-05T08:58:25.179373+00:00",
+    "exit_code": 0,
+    "seconds": 54.89100000000326,
+    "termination_reason": "completed",
+    "error": null,
+    "cleanup": {
+      "attempted": true,
+      "completed": true,
+      "error": null
+    }
+  },
+  "recovery_without_new_call": true,
+  "original_evidence_sha256": {
+    "agent-request.json": "adb9f708ee378a644d5fb3372920977b51a4f59a71df10a3a2faf20627d2f3e1",
+    "agent-result.json": "961f781a84cbf5d8500de18fe5cb262f5947860e64ecffc0d26fb55fef8ffc16",
+    "answer.json": "a29ee2b15c494311c52521766e44af56a3ad2248e7a8ab465e5206463c13d288",
+    "model.command.json": "6804afd83b3004fadc998471e118fdb69e6b74dd05b41037218454f378be1ec6",
+    "model.exit.json": "aca3697c73eed97317652879bc02aa873d03e06d9109b715583370695463e063",
+    "model.input.txt": "6f00e3007b532a731c81e8ebb2ed869e607bdcb6a8f4fea94df5512356650dde",
+    "model.launch.json": "386116beb2240e06ddd49f6a07bf2940f19ab6db57cf4afb99481fc1f07681e1",
+    "model.receipt.json": "548d2d9b82845ccd28c807ffb43e21751cd1b936215207708a3e1978e49002f9",
+    "model.request.json": "f231122bf6d39656dbfc027ef3b6793669452d2fa5e9127c127dee88857276fa",
+    "model.running.json": "c228bfdd057b7faf17029ccdd028d2463cb220e9800c1cab03ccfdf62887de6c",
+    "model.stderr.log": "b367029b3fd90c89f36a0999fb86bf2a18a6cae509a3b035814bbdebff5c6e10",
+    "model.stdout.log": "fd45894857a5cc959e2b6ecb717bda2949da0ac146c5d0707e58ab72cf933ea4",
+    "prompt.txt": "6f00e3007b532a731c81e8ebb2ed869e607bdcb6a8f4fea94df5512356650dde",
+    "schema.json": "c7124e2c7cb644c79435130d36456aa38ee30bb9496c8e40983f4c16a54cdfe9"
+  }
+}

@@ -1,0 +1,28 @@
+[STEP] PLAN_REVIEW
+[STEP] RED
+[STEP] IMPLEMENT
+[STEP] REVIEW
+[AGENT] coordinator / 0001-46de8047b6a2 — 실행 또는 저장된 결과 복구
+[STEP] PLAN
+[AGENT] coordinator / 0002-f1c281d4db14 — 실행 또는 저장된 결과 복구
+[STEP] PLAN_REVIEW
+[AGENT] reviewer / 0003-5c99133dfe2d — 실행 또는 저장된 결과 복구
+[AGENT] coordinator / 0001-381490a2fa1d — 실행 또는 저장된 결과 복구
+[STEP] PLAN
+[AGENT] coordinator / 0002-fb378388c548 — 실행 또는 저장된 결과 복구
+[STEP] PLAN
+[AGENT] coordinator / 0003-2b07a3b8bd20 — 실행 또는 저장된 결과 복구
+[STEP] PLAN
+[AGENT] coordinator / 0004-953bfc4d4ac0 — 실행 또는 저장된 결과 복구
+[STEP] PLAN_REVIEW
+[AGENT] reviewer / 0005-5758e3967597 — 실행 또는 저장된 결과 복구
+[AGENT] coordinator / 0001-50f3021d2028 — 실행 또는 저장된 결과 복구
+test_gate_elapsed_spans_plan_review_and_all_implementation_phases (test_controller_plan_errors.ControllerPlanErrorsTests.test_gate_elapsed_spans_plan_review_and_all_implementation_phases) ... ok
+test_semantically_invalid_plan_is_retired_then_retried_with_new_key (test_controller_plan_errors.ControllerPlanErrorsTests.test_semantically_invalid_plan_is_retired_then_retried_with_new_key) ... ok
+test_three_invalid_plans_gate_and_resume_never_replays_old_cached_result (test_controller_plan_errors.ControllerPlanErrorsTests.test_three_invalid_plans_gate_and_resume_never_replays_old_cached_result) ... ok
+test_unknown_execution_is_not_retired_as_invalid_plan (test_controller_plan_errors.ControllerPlanErrorsTests.test_unknown_execution_is_not_retired_as_invalid_plan) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 12.443s
+
+OK

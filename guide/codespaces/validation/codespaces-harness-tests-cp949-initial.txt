@@ -1,0 +1,137 @@
+test_changed_config_cannot_extend_or_shorten_saved_receipt (test_deadline_160.DeadlineCompatibilityTests) ... ok
+test_completed_legacy_receipt_is_read_and_restarted_without_rewrite (test_deadline_160.DeadlineCompatibilityTests) ... ok
+test_legacy_anchor_without_limit_keeps_150_and_original_timestamp (test_deadline_160.DeadlineCompatibilityTests) ... ok
+test_legacy_pending_anchor_without_limit_does_not_gain_ten_minutes (test_deadline_160.DeadlineCompatibilityTests) ... ok
+test_new_config_without_limit_persists_160_before_receipt (test_deadline_160.DeadlineCompatibilityTests) ... ok
+test_new_pending_anchor_keeps_160_without_resetting_start (test_deadline_160.DeadlineCompatibilityTests) ... ok
+test_unconfigured_legacy_receipt_remains_150 (test_deadline_160.DeadlineCompatibilityTests) ... ok
+test_existing_document_gate_keeps_150 (test_deadline_160.DocumentGateDeadlineTests) ... ok
+test_new_document_gate_uses_160_and_accepts_estimate_above_150 (test_deadline_160.DocumentGateDeadlineTests) ... ok
+test_cached_agent_result_refuses_removed_evidence (test_development_recovery.DevelopmentRecoveryTests) ... ERROR
+test_failed_plan_call_counts_before_attempt_and_cannot_repeat_over_budget (test_development_recovery.DevelopmentRecoveryTests) ... FAIL
+test_human_explanation_allows_escaped_pipe_but_protects_code_columns (test_development_recovery.DevelopmentRecoveryTests) ... ok
+test_invalid_generated_flow_rolls_back_and_stops_after_three_attempts (test_development_recovery.DevelopmentRecoveryTests) ... ERROR
+test_mutation_pending_before_journal_does_not_adopt_unexpected_ignored_edit (test_development_recovery.DevelopmentRecoveryTests) ... ok
+test_mutation_replay_after_publication_before_phase_transition_is_idempotent (test_development_recovery.DevelopmentRecoveryTests) ... ok
+test_mutation_resumes_after_first_of_two_files_without_losing_originals (test_development_recovery.DevelopmentRecoveryTests) ... ok
+test_stale_gate_token_or_ignored_edit_cannot_approve (test_development_recovery.DevelopmentRecoveryTests) ... ok
+test_successful_worker_recovers_when_controller_result_save_is_interrupted (test_development_recovery.DevelopmentRecoveryTests) ... ERROR
+test_successful_worker_survives_incomplete_controller_intent_preparation (test_development_recovery.DevelopmentRecoveryTests) ... ERROR
+test_successful_worker_survives_partial_controller_state_publication (test_development_recovery.DevelopmentRecoveryTests) ... ERROR
+test_unknown_exit_keeps_active_call_and_does_not_launch_again (test_development_recovery.DevelopmentRecoveryTests) ... ERROR
+test_all_green_does_not_count_as_observed_red (test_development_checks.DevelopmentCheckTests) ... ok
+test_cleanup_failure_blocks_completion (test_development_checks.DevelopmentCheckTests) ... ok
+test_command_needs_real_measurement_contract (test_development_checks.DevelopmentCheckTests) ... ok
+test_completed_process_after_controller_crash_recovers_owned_resource (test_development_checks.DevelopmentCheckTests) ... ok
+test_compose_accepts_only_current_project_generated_resource_names (test_development_checks.DevelopmentCheckTests) ... ok
+test_compose_allows_readonly_project_inputs_and_owned_database_volume (test_development_checks.DevelopmentCheckTests) ... ok
+test_compose_context_must_exclude_harness_execution_evidence (test_development_checks.DevelopmentCheckTests) ... ok
+test_compose_fixed_names_are_rejected_before_build (test_development_checks.DevelopmentCheckTests) ... ok
+test_compose_order_and_cleanup_does_not_delete_volumes (test_development_checks.DevelopmentCheckTests) ... ok
+test_compose_unsafe_host_resources_are_rejected_before_build_or_start (test_development_checks.DevelopmentCheckTests) ... ok
+test_contract_rejects_escape_duplicates_and_zero_minimum (test_development_checks.DevelopmentCheckTests) ... ok
+test_docker_build_failure_blocks_start (test_development_checks.DevelopmentCheckTests) ... ok
+test_docker_config_and_workdir_validation (test_development_checks.DevelopmentCheckTests) ... ok
+test_docker_functional_failure_still_cleans_only_owned_container (test_development_checks.DevelopmentCheckTests) ... ok
+test_docker_missing_is_blocked_and_never_passed (test_development_checks.DevelopmentCheckTests) ... ok
+test_docker_order_completion_reuse_and_evidence_tampering (test_development_checks.DevelopmentCheckTests) ... ok
+test_failed_launch_with_no_started_process_does_not_strand_docker_recovery (test_development_checks.DevelopmentCheckTests) ... ok
+test_final_evidence_rejects_missing_successful_command_or_docker_stages (test_development_checks.DevelopmentCheckTests) ... ok
+test_ignored_file_mutation_invalidates_result (test_development_checks.DevelopmentCheckTests) ... ok
+test_import_error_is_not_a_red_behavior_test (test_development_checks.DevelopmentCheckTests) ... ok
+test_incomplete_execution_blocks_docker_recovery (test_development_checks.DevelopmentCheckTests) ... ok
+test_pytest_and_node_counts_and_errors (test_development_checks.DevelopmentCheckTests) ... ok
+test_pytest_runtime_error_is_not_an_assertion_failure (test_development_checks.DevelopmentCheckTests) ... ok
+test_real_red_green_and_cached_command (test_development_checks.DevelopmentCheckTests) ... ok
+test_real_runtime_uses_original_receipt_and_recovers_finished_check (test_development_checks.DevelopmentCheckTests) ... ok
+test_red_allows_other_checks_to_pass (test_development_checks.DevelopmentCheckTests) ... ok
+test_same_run_cannot_relabel_old_logs_as_new_source_results (test_development_checks.DevelopmentCheckTests) ... ok
+test_test_command_cannot_change_controller_state_or_prior_evidence (test_development_checks.DevelopmentCheckTests) ... ok
+test_zero_tests_and_all_skipped_are_not_pass (test_development_checks.DevelopmentCheckTests) ... ok
+
+======================================================================
+ERROR: test_cached_agent_result_refuses_removed_evidence (test_development_recovery.DevelopmentRecoveryTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Codex\harness-codespaces-compose-20261105\codex_agent_harness_codespaces_py39\harness-kit\.harness\tests\test_development_recovery.py", line 150, in test_cached_agent_result_refuses_removed_evidence
+    self.call(controller)
+  File "D:\Codex\harness-codespaces-compose-20261105\codex_agent_harness_codespaces_py39\harness-kit\.harness\tests\test_development_recovery.py", line 54, in call
+    return controller.agent('one', role, '문서를 확인하세요.', test_development_runtime.SCHEMA)
+  File "D:\Codex\harness-codespaces-compose-20261105\codex_agent_harness_codespaces_py39\harness-kit\.harness\development.py", line 322, in agent
+    print('[AGENT] {} / {} — 실행 또는 저장된 결과 복구'.format(role, active['id']), flush=True)
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2014' in position 40: illegal multibyte sequence
+
+======================================================================
+ERROR: test_invalid_generated_flow_rolls_back_and_stops_after_three_attempts (test_development_recovery.DevelopmentRecoveryTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Codex\harness-codespaces-compose-20261105\codex_agent_harness_codespaces_py39\harness-kit\.harness\tests\test_development_recovery.py", line 237, in test_invalid_generated_flow_rolls_back_and_stops_after_three_attempts
+    self.assertEqual(controller.cycle(), development.WAITING)
+  File "D:\Codex\harness-codespaces-compose-20261105\codex_agent_harness_codespaces_py39\harness-kit\.harness\development.py", line 548, in cycle
+    return self._cycle()
+  File "D:\Codex\harness-codespaces-compose-20261105\codex_agent_harness_codespaces_py39\harness-kit\.harness\development.py", line 713, in _cycle
+    patch = self.agent(key + '-implement', 'implementer', '현재 작업의 production files만 구현/수정하세요: ' +
+  File "D:\Codex\harness-codespaces-compose-20261105\codex_agent_harness_codespaces_py39\harness-kit\.harness\development.py", line 322, in agent
+    print('[AGENT] {} / {} — 실행 또는 저장된 결과 복구'.format(role, active['id']), flush=True)
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2014' in position 40: illegal multibyte sequence
+
+======================================================================
+ERROR: test_successful_worker_recovers_when_controller_result_save_is_interrupted (test_development_recovery.DevelopmentRecoveryTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Codex\harness-codespaces-compose-20261105\codex_agent_harness_codespaces_py39\harness-kit\.harness\tests\test_development_recovery.py", line 68, in test_successful_worker_recovers_when_controller_result_save_is_interrupted
+    self.call(controller)
+  File "D:\Codex\harness-codespaces-compose-20261105\codex_agent_harness_codespaces_py39\harness-kit\.harness\tests\test_development_recovery.py", line 54, in call
+    return controller.agent('one', role, '문서를 확인하세요.', test_development_runtime.SCHEMA)
+  File "D:\Codex\harness-codespaces-compose-20261105\codex_agent_harness_codespaces_py39\harness-kit\.harness\development.py", line 322, in agent
+    print('[AGENT] {} / {} — 실행 또는 저장된 결과 복구'.format(role, active['id']), flush=True)
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2014' in position 40: illegal multibyte sequence
+
+======================================================================
+ERROR: test_successful_worker_survives_incomplete_controller_intent_preparation (test_development_recovery.DevelopmentRecoveryTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Codex\harness-codespaces-compose-20261105\codex_agent_harness_codespaces_py39\harness-kit\.harness\tests\test_development_recovery.py", line 106, in test_successful_worker_survives_incomplete_controller_intent_preparation
+    self.call(controller)
+  File "D:\Codex\harness-codespaces-compose-20261105\codex_agent_harness_codespaces_py39\harness-kit\.harness\tests\test_development_recovery.py", line 54, in call
+    return controller.agent('one', role, '문서를 확인하세요.', test_development_runtime.SCHEMA)
+  File "D:\Codex\harness-codespaces-compose-20261105\codex_agent_harness_codespaces_py39\harness-kit\.harness\development.py", line 322, in agent
+    print('[AGENT] {} / {} — 실행 또는 저장된 결과 복구'.format(role, active['id']), flush=True)
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2014' in position 40: illegal multibyte sequence
+
+======================================================================
+ERROR: test_successful_worker_survives_partial_controller_state_publication (test_development_recovery.DevelopmentRecoveryTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Codex\harness-codespaces-compose-20261105\codex_agent_harness_codespaces_py39\harness-kit\.harness\tests\test_development_recovery.py", line 86, in test_successful_worker_survives_partial_controller_state_publication
+    self.call(controller)
+  File "D:\Codex\harness-codespaces-compose-20261105\codex_agent_harness_codespaces_py39\harness-kit\.harness\tests\test_development_recovery.py", line 54, in call
+    return controller.agent('one', role, '문서를 확인하세요.', test_development_runtime.SCHEMA)
+  File "D:\Codex\harness-codespaces-compose-20261105\codex_agent_harness_codespaces_py39\harness-kit\.harness\development.py", line 322, in agent
+    print('[AGENT] {} / {} — 실행 또는 저장된 결과 복구'.format(role, active['id']), flush=True)
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2014' in position 40: illegal multibyte sequence
+
+======================================================================
+ERROR: test_unknown_exit_keeps_active_call_and_does_not_launch_again (test_development_recovery.DevelopmentRecoveryTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Codex\harness-codespaces-compose-20261105\codex_agent_harness_codespaces_py39\harness-kit\.harness\tests\test_development_recovery.py", line 136, in test_unknown_exit_keeps_active_call_and_does_not_launch_again
+    self.call(controller)
+  File "D:\Codex\harness-codespaces-compose-20261105\codex_agent_harness_codespaces_py39\harness-kit\.harness\tests\test_development_recovery.py", line 54, in call
+    return controller.agent('one', role, '문서를 확인하세요.', test_development_runtime.SCHEMA)
+  File "D:\Codex\harness-codespaces-compose-20261105\codex_agent_harness_codespaces_py39\harness-kit\.harness\development.py", line 322, in agent
+    print('[AGENT] {} / {} — 실행 또는 저장된 결과 복구'.format(role, active['id']), flush=True)
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2014' in position 40: illegal multibyte sequence
+
+======================================================================
+FAIL: test_failed_plan_call_counts_before_attempt_and_cannot_repeat_over_budget (test_development_recovery.DevelopmentRecoveryTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Codex\harness-codespaces-compose-20261105\codex_agent_harness_codespaces_py39\harness-kit\.harness\tests\test_development_recovery.py", line 118, in test_failed_plan_call_counts_before_attempt_and_cannot_repeat_over_budget
+    self.assertEqual(self.count(), 1)
+AssertionError: 0 != 1
+
+----------------------------------------------------------------------
+Ran 50 tests in 69.258s
+
+FAILED (failures=1, errors=6)

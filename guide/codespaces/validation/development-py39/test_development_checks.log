@@ -1,0 +1,34 @@
+test_all_green_does_not_count_as_observed_red (test_development_checks.DevelopmentCheckTests) ... ok
+test_cleanup_failure_blocks_completion (test_development_checks.DevelopmentCheckTests) ... ok
+test_command_needs_real_measurement_contract (test_development_checks.DevelopmentCheckTests) ... ok
+test_completed_process_after_controller_crash_recovers_owned_resource (test_development_checks.DevelopmentCheckTests) ... ok
+test_compose_accepts_only_current_project_generated_resource_names (test_development_checks.DevelopmentCheckTests) ... ok
+test_compose_allows_readonly_project_inputs_and_owned_database_volume (test_development_checks.DevelopmentCheckTests) ... ok
+test_compose_context_must_exclude_harness_execution_evidence (test_development_checks.DevelopmentCheckTests) ... ok
+test_compose_fixed_names_are_rejected_before_build (test_development_checks.DevelopmentCheckTests) ... ok
+test_compose_order_and_cleanup_does_not_delete_volumes (test_development_checks.DevelopmentCheckTests) ... ok
+test_compose_unsafe_host_resources_are_rejected_before_build_or_start (test_development_checks.DevelopmentCheckTests) ... ok
+test_contract_rejects_escape_duplicates_and_zero_minimum (test_development_checks.DevelopmentCheckTests) ... ok
+test_docker_build_failure_blocks_start (test_development_checks.DevelopmentCheckTests) ... ok
+test_docker_config_and_workdir_validation (test_development_checks.DevelopmentCheckTests) ... ok
+test_docker_functional_failure_still_cleans_only_owned_container (test_development_checks.DevelopmentCheckTests) ... ok
+test_docker_missing_is_blocked_and_never_passed (test_development_checks.DevelopmentCheckTests) ... ok
+test_docker_order_completion_reuse_and_evidence_tampering (test_development_checks.DevelopmentCheckTests) ... ok
+test_failed_launch_with_no_started_process_does_not_strand_docker_recovery (test_development_checks.DevelopmentCheckTests) ... ok
+test_final_evidence_rejects_missing_successful_command_or_docker_stages (test_development_checks.DevelopmentCheckTests) ... ok
+test_ignored_file_mutation_invalidates_result (test_development_checks.DevelopmentCheckTests) ... ok
+test_import_error_is_not_a_red_behavior_test (test_development_checks.DevelopmentCheckTests) ... ok
+test_incomplete_execution_blocks_docker_recovery (test_development_checks.DevelopmentCheckTests) ... ok
+test_pytest_and_node_counts_and_errors (test_development_checks.DevelopmentCheckTests) ... ok
+test_pytest_runtime_error_is_not_an_assertion_failure (test_development_checks.DevelopmentCheckTests) ... ok
+test_real_red_green_and_cached_command (test_development_checks.DevelopmentCheckTests) ... ok
+test_real_runtime_uses_original_receipt_and_recovers_finished_check (test_development_checks.DevelopmentCheckTests) ... ok
+test_red_allows_other_checks_to_pass (test_development_checks.DevelopmentCheckTests) ... ok
+test_same_run_cannot_relabel_old_logs_as_new_source_results (test_development_checks.DevelopmentCheckTests) ... ok
+test_test_command_cannot_change_controller_state_or_prior_evidence (test_development_checks.DevelopmentCheckTests) ... ok
+test_zero_tests_and_all_skipped_are_not_pass (test_development_checks.DevelopmentCheckTests) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 32.705s
+
+OK

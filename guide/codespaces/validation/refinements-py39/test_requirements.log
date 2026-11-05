@@ -1,0 +1,25 @@
+test_actual_process_exit_after_markdown_publication_recovers_remaining_state (test_requirements.RequirementsTests) ... ok
+test_changed_returned_document_cannot_confirm_or_replace_generated_document (test_requirements.RequirementsTests) ... ok
+test_deadline_expiring_during_final_confirmation_scan_cannot_publish_confirmed (test_requirements.RequirementsTests) ... ok
+test_document_tampering_is_not_repaired_or_adopted_on_rerun (test_requirements.RequirementsTests) ... ok
+test_existing_document_and_spec_output_collision_are_preserved_without_model (test_requirements.RequirementsTests) ... ok
+test_expired_confirmation_is_refused_and_status_still_calls_no_model (test_requirements.RequirementsTests) ... ok
+test_failed_worker_keeps_evidence_and_retries_once_per_invocation (test_requirements.RequirementsTests) ... ok
+test_forged_confirmed_state_is_rejected_without_model_or_document_change (test_requirements.RequirementsTests) ... ok
+test_input_change_invalidates_confirmation_and_old_returned_document (test_requirements.RequirementsTests) ... ok
+test_internal_answer_and_confirmation_files_are_refused (test_requirements.RequirementsTests) ... ok
+test_interrupted_confirmation_reuses_saved_receipt_without_model (test_requirements.RequirementsTests) ... ok
+test_missing_completed_execution_evidence_never_relaunches_automatically (test_requirements.RequirementsTests) ... ok
+test_multiple_answers_wait_then_last_answer_generates_document_and_stops (test_requirements.RequirementsTests) ... ok
+test_no_questions_and_identical_reruns_need_no_more_models_or_automatic_confirmation (test_requirements.RequirementsTests) ... ok
+test_resigned_invalid_paths_and_document_hash_are_rejected (test_requirements.RequirementsTests) ... ok
+test_selected_spec_cannot_confirm_or_reuse_another_specs_document (test_requirements.RequirementsTests) ... ok
+test_successful_worker_exit_before_validation_recovers_without_relaunch (test_requirements.RequirementsTests) ... ok
+test_validated_result_before_publication_recovers_without_relaunch (test_requirements.RequirementsTests) ... ok
+test_worker_cannot_change_the_nonowned_clarification_journal (test_requirements.RequirementsTests) ... ok
+test_worker_source_mutation_never_publishes_a_document (test_requirements.RequirementsTests) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 227.870s
+
+OK

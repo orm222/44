@@ -1,0 +1,13 @@
+test_different_execution_targets_or_working_directories_remain_valid (test_plan_refinements.PlanRefinementsTests) ... ok
+test_empty_discarded_alternatives_and_local_plus_docker_execution_are_allowed (test_plan_refinements.PlanRefinementsTests) ... ok
+test_equivalent_working_directory_notation_does_not_hide_duplicate_execution (test_plan_refinements.PlanRefinementsTests) ... ok
+test_generic_check_validation_preserves_all_required_contracts (test_plan_refinements.PlanRefinementsTests) ... ok
+test_legacy_call_keeps_duplicate_approved_contracts_unchanged (test_plan_refinements.PlanRefinementsTests) ... ok
+test_new_plan_rejects_duplicate_execution_inside_one_task (test_plan_refinements.PlanRefinementsTests) ... ok
+test_new_plan_rejects_same_execution_in_different_tasks_without_dropping_evidence (test_plan_refinements.PlanRefinementsTests) ... ok
+test_new_plan_requires_nonblank_decision_and_reason (test_plan_refinements.PlanRefinementsTests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.026s
+
+OK

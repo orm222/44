@@ -1,0 +1,9 @@
+test_changed_csv_invalidates_both_approvals_before_reanalysis (test_data_flow.DataFlowTests) ... ok
+test_csv_and_baseline_are_hashed_and_cannot_be_omitted_from_model_references (test_data_flow.DataFlowTests) ... ok
+test_data_findings_and_actual_conflicting_answers_use_the_existing_question_flow (test_data_flow.DataFlowTests) ... ok
+test_interrupted_functional_registration_rebuilds_the_same_data_context (test_data_flow.DataFlowTests) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 335.622s
+
+OK

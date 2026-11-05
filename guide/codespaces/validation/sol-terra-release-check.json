@@ -1,0 +1,81 @@
+{
+  "python": "3.9.25 (main, Oct 31 2025, 22:56:13) [MSC v.1929 64 bit (AMD64)]",
+  "unchanged_python_files": 54,
+  "python39_compile": true,
+  "configuration": {
+    "spec": "SPEC.md",
+    "interview": "INTERVIEW.md",
+    "data_files": [],
+    "model": "gpt-6.1-sol",
+    "reviewer_model": "gpt-5.6-terra",
+    "codex_command": [
+      "codex.exe"
+    ],
+    "problem_time_limit_seconds": 9600,
+    "document_stage_minutes": {
+      "requirements": 15,
+      "functional": 10
+    }
+  },
+  "changed_files": [
+    "docs/DATA_CHECKS.md",
+    "docs/HARNESS_AFTER_INTERVIEW_KO.md",
+    "docs/REVIEW_FIXES_KO.md",
+    "problem-project/config.json",
+    "README.md"
+  ],
+  "test_count": 53,
+  "tests_passed": true,
+  "model_checks": [
+    {
+      "role": "coordinator",
+      "model": "gpt-6.1-sol",
+      "passed": true,
+      "reused_without_call": true
+    },
+    {
+      "role": "implementer",
+      "model": "gpt-6.1-sol",
+      "passed": true,
+      "reused_without_call": true
+    },
+    {
+      "role": "reviewer",
+      "model": "gpt-5.6-terra",
+      "passed": true,
+      "reused_without_call": true
+    }
+  ],
+  "resolved_codex_command": [
+    "C:\\Users\\ll\\AppData\\Local\\OpenAI\\Codex\\bin\\b6c7fc9497179c98\\codex.exe"
+  ],
+  "cli_version": "codex-cli 0.166.0-alpha.5.1",
+  "help_smokes": [
+    {
+      "args": [
+        "run_harness.py",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "Commands: start, time-status, requirements (documents only), develop, run (documents through delivery).\r\nusage: run_harness.py [-h] [--spec SPEC] [--config CONFIG] [--model MODEL]\r\n                      [--received-at RECEIVED_AT] [--answer-file ANSWER_FILE]\r\n                      [--root ROOT] [--timeout TIMEOUT]\r\n                      [--answer Q-ID | --confirm-requirements RETURNED_MD | --confirm-functional RETURNED_MD | --status]\r\n\r\nClarify, confirm requirements, then write and confirm the functional\r\nspecification.\r\n\r\noptional arguments:\r\n  -h, --help            show this help message and exit\r\n  --spec SPEC\r\n  --config CONFIG\r\n  --model MODEL\r\n  --received-at RECEIVED_AT\r\n  --answer-file ANSWER_FILE\r\n  --root ROOT\r\n  --timeout TIMEOUT\r\n  --answer Q-ID\r\n  --confirm-requirements RETURNED_MD, --confirm-file RETURNED_MD\r\n  --confirm-functional RETURNED_MD\r\n  --status\r\n"
+    },
+    {
+      "args": [
+        "run_harness.py",
+        "requirements",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "Commands: start, time-status, requirements (documents only), develop, run (documents through delivery).\r\nusage: run_harness.py [-h] [--spec SPEC] [--config CONFIG] [--model MODEL]\r\n                      [--received-at RECEIVED_AT] [--answer-file ANSWER_FILE]\r\n                      [--root ROOT] [--timeout TIMEOUT]\r\n                      [--answer Q-ID | --confirm-requirements RETURNED_MD | --confirm-functional RETURNED_MD | --status]\r\n\r\nClarify, confirm requirements, then write and confirm the functional\r\nspecification.\r\n\r\noptional arguments:\r\n  -h, --help            show this help message and exit\r\n  --spec SPEC\r\n  --config CONFIG\r\n  --model MODEL\r\n  --received-at RECEIVED_AT\r\n  --answer-file ANSWER_FILE\r\n  --root ROOT\r\n  --timeout TIMEOUT\r\n  --answer Q-ID\r\n  --confirm-requirements RETURNED_MD, --confirm-file RETURNED_MD\r\n  --confirm-functional RETURNED_MD\r\n  --status\r\n"
+    },
+    {
+      "args": [
+        "run_harness.py",
+        "develop",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: run_harness.py [-h] [--root ROOT] [--app-root APP_ROOT] [--status]\r\n                      [--approve APPROVE] [--response RESPONSE]\r\n                      [--refresh-inputs] [--request-change JSON_FILE]\r\n                      [--timeout TIMEOUT] [--model MODEL]\r\n                      [--max-calls MAX_CALLS]\r\n                      [--max-plan-attempts MAX_PLAN_ATTEMPTS]\r\n\r\nSequential coordinator, implementer and reviewer with durable human gates.\r\n\r\noptional arguments:\r\n  -h, --help            show this help message and exit\r\n  --root ROOT\r\n  --app-root APP_ROOT\r\n  --status\r\n  --approve APPROVE\r\n  --response RESPONSE\r\n  --refresh-inputs\r\n  --request-change JSON_FILE\r\n  --timeout TIMEOUT\r\n  --model MODEL\r\n  --max-calls MAX_CALLS\r\n  --max-plan-attempts MAX_PLAN_ATTEMPTS\r\n"
+    }
+  ]
+}

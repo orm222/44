@@ -1,0 +1,33 @@
+[AGENT] implementer / 0001-c44f036e55f9 — 실행 또는 저장된 결과 복구
+[AGENT] coordinator / 0001-b5ee694cee9a — 실행 또는 저장된 결과 복구
+[STEP] IMPLEMENT
+[AGENT] implementer / 0001-c852dfcc62c9 — 실행 또는 저장된 결과 복구
+[STEP] IMPLEMENT
+[AGENT] implementer / 0002-f0b898721428 — 실행 또는 저장된 결과 복구
+[STEP] IMPLEMENT
+[AGENT] implementer / 0003-ba23a7636c75 — 실행 또는 저장된 결과 복구
+[AGENT] implementer / 0001-a74cc17e0600 — 실행 또는 저장된 결과 복구
+[AGENT] implementer / 0001-a74cc17e0600 — 실행 또는 저장된 결과 복구
+[AGENT] implementer / 0001-f817903e3c80 — 실행 또는 저장된 결과 복구
+[AGENT] implementer / 0001-f817903e3c80 — 실행 또는 저장된 결과 복구
+[AGENT] implementer / 0001-28c009bb55d6 — 실행 또는 저장된 결과 복구
+[AGENT] implementer / 0001-611f5bb3fb0a — 실행 또는 저장된 결과 복구
+[AGENT] implementer / 0001-611f5bb3fb0a — 실행 또는 저장된 결과 복구
+test_cached_agent_result_refuses_removed_evidence (test_development_recovery.DevelopmentRecoveryTests.test_cached_agent_result_refuses_removed_evidence) ... ok
+test_failed_plan_call_counts_before_attempt_and_cannot_repeat_over_budget (test_development_recovery.DevelopmentRecoveryTests.test_failed_plan_call_counts_before_attempt_and_cannot_repeat_over_budget) ... ok
+test_human_explanation_allows_escaped_pipe_but_protects_code_columns (test_development_recovery.DevelopmentRecoveryTests.test_human_explanation_allows_escaped_pipe_but_protects_code_columns) ... ok
+test_invalid_generated_flow_rolls_back_and_stops_after_three_attempts (test_development_recovery.DevelopmentRecoveryTests.test_invalid_generated_flow_rolls_back_and_stops_after_three_attempts) ... ok
+test_mutation_pending_before_journal_does_not_adopt_unexpected_ignored_edit (test_development_recovery.DevelopmentRecoveryTests.test_mutation_pending_before_journal_does_not_adopt_unexpected_ignored_edit) ... ok
+test_mutation_replay_after_publication_before_phase_transition_is_idempotent (test_development_recovery.DevelopmentRecoveryTests.test_mutation_replay_after_publication_before_phase_transition_is_idempotent) ... ok
+test_mutation_resumes_after_first_of_two_files_without_losing_originals (test_development_recovery.DevelopmentRecoveryTests.test_mutation_resumes_after_first_of_two_files_without_losing_originals) ... ok
+test_stale_gate_token_or_ignored_edit_cannot_approve (test_development_recovery.DevelopmentRecoveryTests.test_stale_gate_token_or_ignored_edit_cannot_approve) ... Development stopped: 예상하지 못한 사용자 파일 변경: node_modules/lib.py
+ok
+test_successful_worker_recovers_when_controller_result_save_is_interrupted (test_development_recovery.DevelopmentRecoveryTests.test_successful_worker_recovers_when_controller_result_save_is_interrupted) ... ok
+test_successful_worker_survives_incomplete_controller_intent_preparation (test_development_recovery.DevelopmentRecoveryTests.test_successful_worker_survives_incomplete_controller_intent_preparation) ... ok
+test_successful_worker_survives_partial_controller_state_publication (test_development_recovery.DevelopmentRecoveryTests.test_successful_worker_survives_partial_controller_state_publication) ... ok
+test_unknown_exit_keeps_active_call_and_does_not_launch_again (test_development_recovery.DevelopmentRecoveryTests.test_unknown_exit_keeps_active_call_and_does_not_launch_again) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 195.134s
+
+OK

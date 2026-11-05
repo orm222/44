@@ -1,0 +1,27 @@
+test_blank_composite_keys_never_join_even_when_explicitly_allowed (test_assurance_data.AssuranceDataTests) ... ok
+test_blank_ledger_ids_cannot_prove_identity_even_when_counts_match (test_assurance_data.AssuranceDataTests) ... ok
+test_composite_keys_have_no_delimiter_collision (test_assurance_data.AssuranceDataTests) ... ok
+test_contracts_reject_outside_paths_inferred_policies_and_duplicate_parts (test_assurance_data.AssuranceDataTests) ... ok
+test_deduplication_or_double_assignment_requires_accounting (test_assurance_data.AssuranceDataTests) ... ok
+test_duplicate_or_missing_headers_are_blocked (test_assurance_data.AssuranceDataTests) ... ok
+test_empty_configuration_is_explicitly_not_applicable (test_assurance_data.AssuranceDataTests) ... ok
+test_empty_parts_allowed_but_missing_parts_or_empty_input_are_not_passes (test_assurance_data.AssuranceDataTests) ... ok
+test_exact_duplicate_input_occurrences_are_preserved_across_parts (test_assurance_data.AssuranceDataTests) ... ok
+test_examples_are_bounded_and_long_ids_are_only_shortened_for_display (test_assurance_data.AssuranceDataTests) ... ok
+test_hardlinked_input_is_rejected (test_assurance_data.AssuranceDataTests) ... ok
+test_hashes_describe_original_bytes_and_inputs_are_not_changed (test_assurance_data.AssuranceDataTests) ... ok
+test_ids_preserve_leading_zeros_and_whitespace (test_assurance_data.AssuranceDataTests) ... ok
+test_invalid_encoding_and_malformed_rows_are_blocked (test_assurance_data.AssuranceDataTests) ... ok
+test_many_to_one_detects_master_duplicates_and_join_row_inflation (test_assurance_data.AssuranceDataTests) ... ok
+test_one_to_many_is_allowed_when_declared_and_expected_rows_match (test_assurance_data.AssuranceDataTests) ... ok
+test_redirected_artifact_file_is_rejected (test_assurance_data.AssuranceDataTests) ... skipped "Symbolic links unavailable: [WinError 1314] 클라이언트가 필요한 권한을 가지고 있지 않습니다: 'D:\\\\CodexTemp\\\\assurance-data-el8iw6lc\\\\outside.csv' -> 'D:\\\\CodexTemp\\\\assurance-data-el8iw6lc\\\\artifacts\\\\used.csv'"
+test_relationship_constraints_are_directional (test_assurance_data.AssuranceDataTests) ... ok
+test_row_byte_and_total_limits_fail_without_truncation (test_assurance_data.AssuranceDataTests) ... ok
+test_same_total_rows_with_different_ids_still_fails (test_assurance_data.AssuranceDataTests) ... ok
+test_strict_schemas_are_self_contained_without_min_length (test_assurance_data.AssuranceDataTests) ... ok
+test_unmatched_left_and_unused_master_are_reported_separately (test_assurance_data.AssuranceDataTests) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 3.687s
+
+OK (skipped=1)

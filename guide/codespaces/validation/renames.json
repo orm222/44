@@ -1,0 +1,56 @@
+{
+  "metric": "Unique bound identifiers (functions, variables, parameters, constants) plus unique literal dictionary keys; categories counted separately; imports and dummy underscore excluded.",
+  "before": {
+    "identifiers": 109,
+    "dictionary_keys": 49,
+    "total": 158
+  },
+  "changed": {
+    "identifiers": 22,
+    "dictionary_keys": 10,
+    "total": 32
+  },
+  "percent": 20.253164556962027,
+  "identifier_renames": {
+    "_number": "_parse_number",
+    "_quantile": "_interpolate_quantile",
+    "_series": "_parse_time_series",
+    "_compare": "_compare_to_baseline",
+    "normalized": "csv_paths",
+    "numeric_columns": "numeric_fields",
+    "config_raw": "settings_bytes",
+    "raw_files": "file_payloads",
+    "baseline_name": "baseline_path",
+    "axes": "time_axes",
+    "parsed": "parsed_time",
+    "stamp": "absolute_time",
+    "q1": "first_quartile",
+    "q3": "third_quartile",
+    "rbar": "mean_range",
+    "mr": "range_limit",
+    "ends": "baseline_tail",
+    "models": "control_limits",
+    "prior": "previous_sample",
+    "nonfinite": "nonfinite_cells",
+    "candidates": "candidate_rows",
+    "numbers": "numeric_samples"
+  },
+  "internal_field_renames": {
+    "records": "parsed_rows",
+    "valid": "well_formed",
+    "axis": "clock_axis",
+    "time": "sample_time",
+    "key": "partition_key",
+    "values": "observations",
+    "ranges": "consecutive_deltas",
+    "gaps": "sample_intervals",
+    "spacing": "cadence_seconds",
+    "mr_upper": "range_ceiling"
+  },
+  "changed_files": [
+    "harness-kit/.harness/data_checks.py"
+  ],
+  "inverse_rename_restores_exact_original_bytes": true,
+  "original_sha256": "5abcf6c6630934841ffa705303f64d29aa0afbe49be1ae21b16fc1e482b5e55a",
+  "renamed_sha256": "5a5409a21fe165c6610be2f48bbc9180a9cb917356dea37b76cc431a0c70ba39"
+}

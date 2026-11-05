@@ -1,0 +1,57 @@
+[AGENT] coordinator / 0001-c86577b7987b — 실행 또는 저장된 결과 복구
+[STEP] PLAN_REVIEW
+[AGENT] reviewer / 0002-f07aad623ca2 — 실행 또는 저장된 결과 복구
+[STEP] RED
+필수 실행 환경 미준비: simulated missing Docker engine
+환경을 준비한 뒤 develop으로 재개하세요. 승인·완료 상태와 최초 마감은 유지됩니다.
+[AGENT] implementer / 0003-a317b59a9575 — 실행 또는 저장된 결과 복구
+[STEP] RED_CHECK
+[CHECK] 1-T1-red-0 / expected=fail
+[STEP] IMPLEMENT
+[AGENT] implementer / 0004-a648eebfc85a — 실행 또는 저장된 결과 복구
+[STEP] TEST
+[CHECK] 1-T1-0 / expected=pass
+[ASSURANCE] 1-T1-0
+[STEP] REVIEW
+[AGENT] reviewer / 0005-b5fcd6157a51 — 실행 또는 저장된 결과 복구
+[AGENT] coordinator / 0001-b5f4b5c7ed99 — 실행 또는 저장된 결과 복구
+[STEP] PLAN_REVIEW
+[AGENT] reviewer / 0002-93a0a235629e — 실행 또는 저장된 결과 복구
+[STEP] RED
+[AGENT] coordinator / 0001-e64ba82adee9 — 실행 또는 저장된 결과 복구
+[STEP] PLAN_REVIEW
+[AGENT] reviewer / 0002-3714dcd835f0 — 실행 또는 저장된 결과 복구
+[STEP] RED
+[AGENT] coordinator / 0001-2a11197d72b9 — 실행 또는 저장된 결과 복구
+[STEP] PLAN_REVIEW
+[AGENT] reviewer / 0002-6b4f1b3fc8f2 — 실행 또는 저장된 결과 복구
+[STEP] RED
+[AGENT] coordinator / 0001-ae2943036d79 — 실행 또는 저장된 결과 복구
+[STEP] PLAN_REVIEW
+[AGENT] reviewer / 0002-5310bb80e1f0 — 실행 또는 저장된 결과 복구
+[AGENT] coordinator / 0001-d91d64a60ca2 — 실행 또는 저장된 결과 복구
+[STEP] PLAN_REVIEW
+[AGENT] reviewer / 0002-8b790f67849a — 실행 또는 저장된 결과 복구
+[STEP] RED
+[AGENT] implementer / 0003-d9996bb37e6d — 실행 또는 저장된 결과 복구
+[STEP] RED_CHECK
+[CHECK] 1-T1-red-0 / expected=fail
+[STEP] IMPLEMENT
+[AGENT] implementer / 0004-0b5f3b09133f — 실행 또는 저장된 결과 복구
+[STEP] TEST
+[CHECK] 1-T1-0 / expected=pass
+[ASSURANCE] 1-T1-0
+[STEP] REVIEW
+[AGENT] reviewer / 0005-87e88eef32fe — 실행 또는 저장된 결과 복구
+test_blocked_readiness_keeps_red_and_calls_then_reopens_after_environment_ready (test_controller_refinements.ControllerRefinementsTests) ... ok
+test_changed_pass_evidence_blocks_reuse_without_another_attempt (test_controller_refinements.ControllerRefinementsTests) ... ok
+test_expired_clock_blocks_resume_even_when_readiness_passed (test_controller_refinements.ControllerRefinementsTests) ... ok
+test_model_context_preserves_csv_error_stage_legacy_reason_and_zero_counts (test_controller_refinements.ControllerRefinementsTests) ... ok
+test_pass_receipt_is_verified_and_reused_without_fresh_environment_execution (test_controller_refinements.ControllerRefinementsTests) ... ok
+test_plan_approval_precedes_readiness_and_implementation (test_controller_refinements.ControllerRefinementsTests) ... ok
+test_unknown_readiness_reuses_saved_directory_and_does_not_start_new_attempt (test_controller_refinements.ControllerRefinementsTests) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 32.947s
+
+OK

@@ -1,0 +1,66 @@
+{
+  "python": "3.9.25 (main, Oct 31 2025, 22:56:13) [MSC v.1929 64 bit (AMD64)]",
+  "interpreter": "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+  "source_archive": "codex_agent_harness_assurance_py39.zip",
+  "source_archive_sha256": "0593df6861f382c7085c6b4dceca12781aa60568df2f0569710202a9cb710825",
+  "python_files_unchanged": 50,
+  "python39_compile_ok": true,
+  "changes": [
+    "README: Python 3.9 startup instructions",
+    "Validation note and release records"
+  ],
+  "smoke": [
+    {
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "run_harness.py",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "Commands: start, time-status, requirements (documents only), develop, run (documents through delivery).\r\nusage: run_harness.py [-h] [--spec SPEC] [--config CONFIG] [--model MODEL]\r\n                      [--received-at RECEIVED_AT] [--answer-file ANSWER_FILE]\r\n                      [--root ROOT] [--timeout TIMEOUT]\r\n                      [--answer Q-ID | --confirm-requirements RETURNED_MD | --confirm-functional RETURNED_MD | --status]\r\n\r\nClarify, confirm requirements, then write and confirm the functional\r\nspecification.\r\n\r\noptional arguments:\r\n  -h, --help            show this help message and exit\r\n  --spec SPEC\r\n  --config CONFIG\r\n  --model MODEL\r\n  --received-at RECEIVED_AT\r\n  --answer-file ANSWER_FILE\r\n  --root ROOT\r\n  --timeout TIMEOUT\r\n  --answer Q-ID\r\n  --confirm-requirements RETURNED_MD, --confirm-file RETURNED_MD\r\n  --confirm-functional RETURNED_MD\r\n  --status\r\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "run_harness.py",
+        "develop",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: run_harness.py [-h] [--root ROOT] [--app-root APP_ROOT] [--status]\r\n                      [--approve APPROVE] [--response RESPONSE]\r\n                      [--refresh-inputs] [--request-change JSON_FILE]\r\n                      [--timeout TIMEOUT] [--model MODEL]\r\n                      [--max-calls MAX_CALLS]\r\n                      [--max-plan-attempts MAX_PLAN_ATTEMPTS]\r\n\r\nSequential coordinator, implementer and reviewer with durable human gates.\r\n\r\noptional arguments:\r\n  -h, --help            show this help message and exit\r\n  --root ROOT\r\n  --app-root APP_ROOT\r\n  --status\r\n  --approve APPROVE\r\n  --response RESPONSE\r\n  --refresh-inputs\r\n  --request-change JSON_FILE\r\n  --timeout TIMEOUT\r\n  --model MODEL\r\n  --max-calls MAX_CALLS\r\n  --max-plan-attempts MAX_PLAN_ATTEMPTS\r\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "run_harness.py",
+        "requirements",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "Commands: start, time-status, requirements (documents only), develop, run (documents through delivery).\r\nusage: run_harness.py [-h] [--spec SPEC] [--config CONFIG] [--model MODEL]\r\n                      [--received-at RECEIVED_AT] [--answer-file ANSWER_FILE]\r\n                      [--root ROOT] [--timeout TIMEOUT]\r\n                      [--answer Q-ID | --confirm-requirements RETURNED_MD | --confirm-functional RETURNED_MD | --status]\r\n\r\nClarify, confirm requirements, then write and confirm the functional\r\nspecification.\r\n\r\noptional arguments:\r\n  -h, --help            show this help message and exit\r\n  --spec SPEC\r\n  --config CONFIG\r\n  --model MODEL\r\n  --received-at RECEIVED_AT\r\n  --answer-file ANSWER_FILE\r\n  --root ROOT\r\n  --timeout TIMEOUT\r\n  --answer Q-ID\r\n  --confirm-requirements RETURNED_MD, --confirm-file RETURNED_MD\r\n  --confirm-functional RETURNED_MD\r\n  --status\r\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "harness-kit/.harness/tests",
+        "-p",
+        "test_python_version.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_old_python_is_rejected_before_all_commands (test_python_version.PythonVersionTests) ... ok\r\n\r\n----------------------------------------------------------------------\r\nRan 1 test in 0.072s\r\n\r\nOK\r\n"
+    }
+  ]
+}

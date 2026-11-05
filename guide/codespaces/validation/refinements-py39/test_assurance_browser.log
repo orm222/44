@@ -1,0 +1,19 @@
+test_contract_rejects_external_origins_arbitrary_js_and_unbounded_cases (test_assurance_browser.BrowserAssuranceTests) ... ok
+test_control_mutation_raises_after_cleanup_and_preserves_user_bytes (test_assurance_browser.BrowserAssuranceTests) ... ok
+test_existing_service_port_is_not_reused_or_stopped (test_assurance_browser.BrowserAssuranceTests) ... ok
+test_expired_original_deadline_prevents_start (test_assurance_browser.BrowserAssuranceTests) ... ok
+test_ignored_source_mutation_blocks_and_cleans_server (test_assurance_browser.BrowserAssuranceTests) ... ok
+test_missing_screenshot_cannot_pass_historical_verification (test_assurance_browser.BrowserAssuranceTests) ... ok
+test_missing_server_is_blocked_without_unowned_cleanup (test_assurance_browser.BrowserAssuranceTests) ... ok
+test_probe_mock_waits_for_dom_text_and_records_http_errors (test_assurance_browser.BrowserAssuranceTests) ... ok
+test_production_probe_missing_dependency_is_blocked_without_installing (test_assurance_browser.BrowserAssuranceTests) ... ok
+test_report_publication_interruption_recovers_without_new_processes (test_assurance_browser.BrowserAssuranceTests) ... ok
+test_simulated_dom_failure_is_fail_and_preserves_screenshots (test_assurance_browser.BrowserAssuranceTests) ... ok
+test_simulated_success_has_both_viewports_and_server_cleanup (test_assurance_browser.BrowserAssuranceTests) ... ok
+test_success_is_reused_without_restarting_owned_server_or_probe (test_assurance_browser.BrowserAssuranceTests) ... ok
+test_unknown_server_exit_never_relaunches_or_kills_a_pid (test_assurance_browser.BrowserAssuranceTests) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 71.889s
+
+OK

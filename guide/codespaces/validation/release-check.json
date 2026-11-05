@@ -1,0 +1,78 @@
+{
+  "python": "3.9.25 (main, Oct 31 2025, 22:56:13) [MSC v.1929 64 bit (AMD64)]",
+  "python_files": 54,
+  "compile_python39": true,
+  "changed_files": [
+    "docs/ASSURANCE_KO.md",
+    "docs/DATA_CHECKS.md",
+    "docs/HARNESS_AFTER_INTERVIEW_KO.md",
+    "harness-kit/.harness/assurance.py",
+    "harness-kit/.harness/assurance_quality.py",
+    "harness-kit/.harness/development.py",
+    "harness-kit/.harness/development_checks.py",
+    "harness-kit/.harness/development_contracts.py",
+    "harness-kit/.harness/development_documents.py",
+    "harness-kit/.harness/problem_time.py",
+    "harness-kit/.harness/requirements.py",
+    "harness-kit/.harness/tests/test_assurance_quality.py",
+    "harness-kit/.harness/tests/test_clarify_deadline.py",
+    "harness-kit/.harness/tests/test_controller_plan_errors.py",
+    "harness-kit/.harness/tests/test_development_documents.py",
+    "harness-kit/.harness/tests/test_development_integration.py",
+    "harness-kit/.harness/tests/test_problem_time.py",
+    "problem-project/config.json",
+    "README.md"
+  ],
+  "added_files": [
+    "harness-kit/.harness/tests/test_controller_refinements.py",
+    "harness-kit/.harness/tests/test_deadline_160.py",
+    "harness-kit/.harness/tests/test_development_readiness.py",
+    "harness-kit/.harness/tests/test_plan_refinements.py"
+  ],
+  "model": "gpt-6-astra",
+  "new_limit_seconds": 9600,
+  "prior_limit_seconds": 9000,
+  "cli_smoke": [
+    {
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "run_harness.py",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "Commands: start, time-status, requirements (documents only), develop, run (documents through delivery).\r\nusage: run_harness.py [-h] [--spec SPEC] [--config CONFIG] [--model MODEL]\r\n                      [--received-at RECEIVED_AT] [--answer-file ANSWER_FILE]\r\n                      [--root ROOT] [--timeout TIMEOUT]\r\n                      [--answer Q-ID | --confirm-requirements RETURNED_MD | --confirm-functional RETURNED_MD | --status]\r\n\r\nClarify, confirm requirements, then write and confirm the functional\r\nspecification.\r\n\r\noptional arguments:\r\n  -h, --help            show this help message and exit\r\n  --spec SPEC\r\n  --config CONFIG\r\n  --model MODEL\r\n  --received-at RECEIVED_AT\r\n  --answer-file ANSWER_FILE\r\n  --root ROOT\r\n  --timeout TIMEOUT\r\n  --answer Q-ID\r\n  --confirm-requirements RETURNED_MD, --confirm-file RETURNED_MD\r\n  --confirm-functional RETURNED_MD\r\n  --status\r\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "run_harness.py",
+        "develop",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: run_harness.py [-h] [--root ROOT] [--app-root APP_ROOT] [--status]\r\n                      [--approve APPROVE] [--response RESPONSE]\r\n                      [--refresh-inputs] [--request-change JSON_FILE]\r\n                      [--timeout TIMEOUT] [--model MODEL]\r\n                      [--max-calls MAX_CALLS]\r\n                      [--max-plan-attempts MAX_PLAN_ATTEMPTS]\r\n\r\nSequential coordinator, implementer and reviewer with durable human gates.\r\n\r\noptional arguments:\r\n  -h, --help            show this help message and exit\r\n  --root ROOT\r\n  --app-root APP_ROOT\r\n  --status\r\n  --approve APPROVE\r\n  --response RESPONSE\r\n  --refresh-inputs\r\n  --request-change JSON_FILE\r\n  --timeout TIMEOUT\r\n  --model MODEL\r\n  --max-calls MAX_CALLS\r\n  --max-plan-attempts MAX_PLAN_ATTEMPTS\r\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "run_harness.py",
+        "requirements",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "Commands: start, time-status, requirements (documents only), develop, run (documents through delivery).\r\nusage: run_harness.py [-h] [--spec SPEC] [--config CONFIG] [--model MODEL]\r\n                      [--received-at RECEIVED_AT] [--answer-file ANSWER_FILE]\r\n                      [--root ROOT] [--timeout TIMEOUT]\r\n                      [--answer Q-ID | --confirm-requirements RETURNED_MD | --confirm-functional RETURNED_MD | --status]\r\n\r\nClarify, confirm requirements, then write and confirm the functional\r\nspecification.\r\n\r\noptional arguments:\r\n  -h, --help            show this help message and exit\r\n  --spec SPEC\r\n  --config CONFIG\r\n  --model MODEL\r\n  --received-at RECEIVED_AT\r\n  --answer-file ANSWER_FILE\r\n  --root ROOT\r\n  --timeout TIMEOUT\r\n  --answer Q-ID\r\n  --confirm-requirements RETURNED_MD, --confirm-file RETURNED_MD\r\n  --confirm-functional RETURNED_MD\r\n  --status\r\n",
+      "stderr": ""
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+test_actual_process_exit_between_markdown_and_json_recovers (test_analysis_recovery.AnalysisRecoveryTests) ... ok
+test_before_markdown_write (test_analysis_recovery.AnalysisRecoveryTests) ... ok
+test_pending_journal_edit_is_rejected (test_analysis_recovery.AnalysisRecoveryTests) ... ok
+test_prepared_journal_before_publication_reuses_validated_target (test_analysis_recovery.AnalysisRecoveryTests) ... ok
+test_response_without_successful_cleanup_evidence_is_not_adopted (test_analysis_recovery.AnalysisRecoveryTests) ... ok
+test_unrelated_boundary_change_is_refused_without_overwriting (test_analysis_recovery.AnalysisRecoveryTests) ... ok
+test_walk_permission_error_is_not_treated_as_an_empty_directory (test_analysis_recovery.ClarificationSnapshotTests) ... ok
+test_actual_exit_with_partial_json_temporary_recovers (test_answer_recovery.AnswerRecoveryTests) ... ok
+test_reanalysis_recovers_answer_and_runs_only_requested_analysis (test_answer_recovery.AnswerRecoveryTests) ... ok
+test_answer_document_and_metadata_tampering_fail_closed (test_boundary.BoundaryTests) ... ok
+test_no_questions_becomes_ready_without_tasks_acceptance_or_model_confirmation (test_boundary.BoundaryTests) ... ok
+test_timeout_marks_failed_and_stops_child (test_boundary.BoundaryTests) ... ok
+test_existing_receipt_enforced_even_without_config_flag (test_clarify_deadline.ClarifyDeadlineTests) ... ok
+test_short_real_process_is_stopped_at_remaining_deadline (test_clarify_deadline.ClarifyDeadlineTests) ... ok
+test_absolute_and_relative_time_axes_require_confirmation (test_data_checks.DataCheckTests) ... ok
+test_extreme_moving_range_is_reported_without_nonfinite_json (test_data_checks.DataCheckTests) ... ok
+test_invalid_csv_is_rejected_instead_of_partially_analyzed (test_data_checks.DataCheckTests) ... ok
+test_naive_offset_and_numeric_axes_cannot_be_mixed (test_data_checks.DataCheckTests) ... ok
+test_row_byte_and_file_limits_are_explicit_errors (test_data_checks.DataCheckTests) ... ok
+test_changed_csv_invalidates_both_approvals_before_reanalysis (test_data_flow.DataFlowTests) ... ok
+test_changed_input_never_makes_a_tampered_success_receipt_retryable (test_document_retry.DocumentRetryTests) ... ok
+test_expired_budget_prevents_another_failed_attempt (test_document_retry.DocumentRetryTests) ... ok
+test_interrupted_failure_retirement_resumes_without_losing_evidence (test_document_retry.DocumentRetryTests) ... ok
+test_timeout_retries_with_a_new_revision_and_the_same_clock (test_document_retry.DocumentRetryTests) ... ok
+test_actual_process_exit_after_functional_markdown_recovers_without_model (test_functional.FunctionalTests) ... ok
+test_failed_functional_worker_retries_without_losing_parent_approval (test_functional.FunctionalTests) ... ok
+test_requirements_approval_is_required_before_functional_generation_or_confirmation (test_functional.FunctionalTests) ... ok
+test_registration_replaces_only_the_saved_stale_pointer_after_real_exit (test_functional_registration.FunctionalRegistrationTests) ... ok
+test_changed_interview_invalidates_both_approvals_and_requires_regeneration (test_interview.InterviewTests) ... ok
+test_initial_state_hashes_interview_and_model_must_report_using_it (test_interview.InterviewTests) ... ok
+test_deadline_guard_stops_child_between_heavy_checks (test_lifecycle.GuardCadenceTests) ... ok
+test_zero_interval_checks_each_poll_and_still_checks_after_exit (test_lifecycle.GuardCadenceTests) ... ok
+test_running_marker_write_failure_still_cleans_started_process (test_lifecycle.LifecycleTests) ... ok
+test_config_limit_is_exact_and_cannot_disable_present_receipt (test_problem_time.ProblemTimeTests) ... ok
+test_existing_receipt_supplies_missing_anchor_and_changed_anchor_is_rejected (test_problem_time.ProblemTimeTests) ... ok
+test_invalid_requested_budget_and_clock_rollback_rejected (test_problem_time.ProblemTimeTests) ... ok
+test_start_cli_obeys_existing_operation_lock (test_problem_time.ProblemTimeTests) ... Problem clock stopped: Another harness operation is active: requirements
+ok
+test_legacy_answer_bytes_stay_valid_until_an_actual_answer_changes (test_question_policy.QuestionPolicyTests) ... ok
+test_changed_returned_document_cannot_confirm_or_replace_generated_document (test_requirements.RequirementsTests) ... ok
+test_expired_confirmation_is_refused_and_status_still_calls_no_model (test_requirements.RequirementsTests) ... ok
+test_internal_answer_and_confirmation_files_are_refused (test_requirements.RequirementsTests) ... ok
+test_no_questions_and_identical_reruns_need_no_more_models_or_automatic_confirmation (test_requirements.RequirementsTests) ... ok
+test_validated_result_before_publication_recovers_without_relaunch (test_requirements.RequirementsTests) ... ok
+test_nested_imports_share_ownership_but_other_threads_cannot_bypass_it (test_runtime_support.RuntimeSupportTests) ... ok
+test_generated_documents_cannot_replace_the_original_problem (test_source_inputs.SourceInputTests) ... ok
+
+----------------------------------------------------------------------
+Ran 45 tests in 364.961s
+
+OK

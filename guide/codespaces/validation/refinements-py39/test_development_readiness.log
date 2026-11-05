@@ -1,0 +1,18 @@
+test_metadata_queries_exact_headless_registry_without_browser_launch (test_development_readiness.BrowserMetadataTests) ... ok
+test_missing_executable_or_unsupported_browser_api_blocks (test_development_readiness.BrowserMetadataTests) ... ok
+test_changed_inputs_or_logs_are_not_reused (test_development_readiness.ReadinessTests) ... ok
+test_compose_selected_and_required_environment_missing_are_both_reported (test_development_readiness.ReadinessTests) ... ok
+test_external_guard_and_expired_original_deadline_are_hard_errors (test_development_readiness.ReadinessTests) ... ok
+test_interrupted_report_publication_recovers_without_reexecuting_tools (test_development_readiness.ReadinessTests) ... ok
+test_legacy_plan_still_requires_docker_and_python (test_development_readiness.ReadinessTests) ... ok
+test_missing_docker_is_proven_not_started_and_blocks_without_installation (test_development_readiness.ReadinessTests) ... ok
+test_non_web_checks_required_docker_without_browser_discovery_and_reuses_success (test_development_readiness.ReadinessTests) ... ok
+test_source_and_controller_mutations_raise_after_cleanup (test_development_readiness.ReadinessTests) ... ok
+test_unknown_exit_never_relaunches_even_when_environment_is_available (test_development_readiness.ReadinessTests) ... ok
+test_web_metadata_is_required_and_bound_to_approved_browser (test_development_readiness.ReadinessTests) ... ok
+test_web_missing_engine_blocks_and_new_attempt_can_observe_repair (test_development_readiness.ReadinessTests) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 58.751s
+
+OK

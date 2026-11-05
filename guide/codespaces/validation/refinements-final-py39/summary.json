@@ -1,0 +1,710 @@
+{
+  "label": "refinements-final-py39",
+  "python": "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+  "version": "3.9.25 (main, Oct 31 2025, 22:56:13) [MSC v.1929 64 bit (AMD64)]",
+  "source_sha256": {
+    "run_harness.py": "30dbd7e55d979fc1207e628d9af34be509c0c856337eed7f726fad255ae41bef",
+    "harness-kit/run_harness.py": "40cf58d7bc54c0634f4dfe98817cfe97ea298398e10f757a8c59c176542338f0",
+    "harness-kit/.harness/assurance.py": "3930003d3702bcafc68c10a29c3775df70983d56f5b3eeaa5d66a1e4aa96cb78",
+    "harness-kit/.harness/assurance_browser.py": "6eeee7ea2048c80f8722ba21eccfe31acceffd8c889e428c19c31eb977a89942",
+    "harness-kit/.harness/assurance_data.py": "c7d119011ac94d93693eae8bdc51e52de7b44e2ac91cdf84089abd9c17433466",
+    "harness-kit/.harness/assurance_quality.py": "15f95ea658929832bb627e098bfc7eab5410beb46c3a8c0b7de3bf9c3bd5f124",
+    "harness-kit/.harness/boundary.py": "ac93bdd480602e5223bc61da8c6b170585ff96e79ad912db8353f605416d7074",
+    "harness-kit/.harness/browser_probe.py": "b73f4a2cff8c72d36716620d32f6b7db95d6e2cf696dd1359df093778c1d889f",
+    "harness-kit/.harness/clarify.py": "abc5d8d72f7c100b4a7e9f382246c3165c53c92aa333f837ac02120a86acb481",
+    "harness-kit/.harness/codex_protocol.py": "e0c6ebb961170e8ad45009ab06a44b85da20363affb34be5d81d0697ade9a4a3",
+    "harness-kit/.harness/data_checks.py": "5a5409a21fe165c6610be2f48bbc9180a9cb917356dea37b76cc431a0c70ba39",
+    "harness-kit/.harness/development.py": "7b78978dd4bfa2669d62fa93dd178067752abbf2411bbd8792c23bef92a097d6",
+    "harness-kit/.harness/development_checks.py": "deae15f2fcaa3b98d9382d2e5cd4afd09c9032688e651f133869d744fedcdbad",
+    "harness-kit/.harness/development_contracts.py": "5c1a8fdac485bd4991606d3eb361e4da0391544fa98969455e2d5e69d967e052",
+    "harness-kit/.harness/development_documents.py": "99c94a7d13c80859d83903c4807b64a5177191c5bd277b1cf822976ddae36dc0",
+    "harness-kit/.harness/development_runtime.py": "38a60b0385c6c98f9f032ea7293902501a098098b786f1042f22f2e6fd4f4444",
+    "harness-kit/.harness/lifecycle.py": "05ebc0c53052ad27458ce5acd74867e8c83f065e5d5c02fe2347bc055d324c0d",
+    "harness-kit/.harness/operation_lock.py": "13e522161f52f24dc11081fe3d25ce3965f6937d2bd5ee206dee980e9c206ce5",
+    "harness-kit/.harness/problem_time.py": "9bf835c69805d4bd5fb07d4603686fc06eddd7d18575083d3df5bafc92834491",
+    "harness-kit/.harness/processes.py": "4059d2b003e9f4ad5b4a0d957a40f1a7fc8bab99495f0f331baa11e3b47592f9",
+    "harness-kit/.harness/requirements.py": "eb7db97cba39d3b29db55114ffabefe569008dd10e7594d50feeeeb72aa39d41",
+    "harness-kit/.harness/tests/test_analysis_recovery.py": "74bad6cfb37dc574a40c652851c65c066a193aed57f6affb41a7ab5024d069f8",
+    "harness-kit/.harness/tests/test_answer_recovery.py": "11d6d4314d7faa863a28478534872c581293d4d58cf2618851e410a4a1219bf7",
+    "harness-kit/.harness/tests/test_assurance_browser.py": "f5a82b610aee35ca9d8e0a63fc8525e1ef5917b9237a22bd1e2ccdefc5298aa0",
+    "harness-kit/.harness/tests/test_assurance_data.py": "164b6def2006c838ceb1357d54f24b0f35e84b0369c9d4803779f27b42e9cb3e",
+    "harness-kit/.harness/tests/test_assurance_integration.py": "2790cc2dc92bbe49a6871fa68d8d90229c5f82d7c851ae1dc3d360abf7bed9ba",
+    "harness-kit/.harness/tests/test_assurance_quality.py": "7628679e4c0b8b47df2df9852777bf8f242206f0ed3bb6d2a3413667396ed168",
+    "harness-kit/.harness/tests/test_boundary.py": "cbab9840344e40fe42995a4254561115956adcdedf968fac5df3706b4ca15f26",
+    "harness-kit/.harness/tests/test_clarify_deadline.py": "983ee9271bca036cef59874d48e9cad3ab3f8ddf961b437f7b3f53041f75436e",
+    "harness-kit/.harness/tests/test_controller_plan_errors.py": "1a9f290ff1b6714e0746ac388d61d1b8f58efe07c1971866d4b657a3ace98b67",
+    "harness-kit/.harness/tests/test_controller_refinements.py": "bfe1a624a998417a59f9fd8c8047c1d8b022b0169956c2a09235fb31f99db225",
+    "harness-kit/.harness/tests/test_data_checks.py": "523297e58b70c5cee48c6e4771c0f5e27e50d0d3a1a1b87b915c88f3c5351816",
+    "harness-kit/.harness/tests/test_data_flow.py": "ebabf10be9b19904e28cedb817d4e0b6725566985373560df8b2443e3361ae1b",
+    "harness-kit/.harness/tests/test_deadline_160.py": "ffa4e040d9158372eabd020867e5f9e1c8518d2db2bdb5cfa68741f6059c75aa",
+    "harness-kit/.harness/tests/test_development_checks.py": "77aab6c603050b009208d32d6fd4f81021cd183dd2e3352298d94d0aa857e6e0",
+    "harness-kit/.harness/tests/test_development_documents.py": "0235f60c632d6b28d121d7d7c49a1521b4552080b440c055b571abe1411b22a0",
+    "harness-kit/.harness/tests/test_development_handoff.py": "f88ecc71a560c06f38d16910ddc57f6a53460055eb04c8251bc4832cfe542a20",
+    "harness-kit/.harness/tests/test_development_integration.py": "3ce575d758901c100a4850af4dd08dd682e9e8eee1628a36017910c3db98edac",
+    "harness-kit/.harness/tests/test_development_readiness.py": "791f0a1991b323b18bf6ea4e6502d4af4c15d867af44ab151b553face9cf6a55",
+    "harness-kit/.harness/tests/test_development_recovery.py": "0b8652fbeefee331cef64e558fd29a7ed9412e7a2a45dd6ba69111e70c94a629",
+    "harness-kit/.harness/tests/test_development_runtime.py": "e4789922aee58e75fc442749261f264c75d49028b309e20cd3c2e4110f2a4d6f",
+    "harness-kit/.harness/tests/test_document_retry.py": "077ca4226166f9e560c95f2db8735f2446e82027904e7002433380db0c1ff553",
+    "harness-kit/.harness/tests/test_document_validation.py": "61a2b419fe93978dae22b5b71c6d8c29a7a64840e446fc88cd3b28e0150fae5b",
+    "harness-kit/.harness/tests/test_functional.py": "5271925d58c0bbdc734919e9b86b104b8e01d544954f29ee38621024e592ed0b",
+    "harness-kit/.harness/tests/test_functional_registration.py": "48cad87f254c82257c67cd1cb192559c011e7d61f804c8e6814e3a28b9b259a1",
+    "harness-kit/.harness/tests/test_interview.py": "6dbc69693ec5a7d0cd00230c12b409f0e75873f7adc9cecfb27c10febb0fefae",
+    "harness-kit/.harness/tests/test_lifecycle.py": "7275ed758dffef81621ff5f094dc6e3be759e6504d60c9446f60cadd2a6474b2",
+    "harness-kit/.harness/tests/test_plan_refinements.py": "ac26b3ba3fb816a2c41a7c7e49272bb98681caaadd6bdd6658a0515ec0066382",
+    "harness-kit/.harness/tests/test_problem_time.py": "158eccbe109af1c2e4aeabcd127f84f2f0a8c679c951d081db76f3fdbb9825cf",
+    "harness-kit/.harness/tests/test_python_version.py": "79c8f69c21480ee9db5cc9eaa0352fb240f3efd7528ba1d83ed2f4dc60307ad8",
+    "harness-kit/.harness/tests/test_question_policy.py": "92bf8ab37456b63ec92cfffca4bde7a22cbfa420d7d750f9b9c17ea168e83e56",
+    "harness-kit/.harness/tests/test_requirements.py": "14be2f6a2400b1c44db7801be33add7993afa9af6602e71602542c8835f6bb1b",
+    "harness-kit/.harness/tests/test_runtime_support.py": "5e0936f6498988f864870749df64fce3de17cc4fe6734ce8aa24c328bac0f36b",
+    "harness-kit/.harness/tests/test_source_inputs.py": "2bca4bf68f661c3a8060b71b47cbaa6a8ad624f85d0fd82e038672761af93bd8"
+  },
+  "sources_unchanged": true,
+  "tests": 402,
+  "skipped": 1,
+  "passed": true,
+  "seconds": 822.25,
+  "modules": [
+    {
+      "module": "test_analysis_recovery",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_analysis_recovery",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 25,
+      "seconds": 102.297,
+      "log": "validation/refinements-py39/test_analysis_recovery.log",
+      "sha256": "51be777661aa4ca8722caaee51ad5c70fa6506b8d1fd482b46baf4b66968d57a"
+    },
+    {
+      "module": "test_answer_recovery",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_answer_recovery",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 10,
+      "seconds": 38.891,
+      "log": "validation/refinements-py39/test_answer_recovery.log",
+      "sha256": "d871a8897e028dc1841f1d6479f67c2b78691ac81f2c852d39361c51fc744b17"
+    },
+    {
+      "module": "test_assurance_browser",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_assurance_browser",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 14,
+      "seconds": 73.094,
+      "log": "validation/refinements-py39/test_assurance_browser.log",
+      "sha256": "9111f3ec268ffef3efa9c190fec49690a3d82b6def530692a524a95fc6d86653"
+    },
+    {
+      "module": "test_assurance_data",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_assurance_data",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 1,
+      "tests": 22,
+      "seconds": 4.375,
+      "log": "validation/refinements-py39/test_assurance_data.log",
+      "sha256": "790db5ff42e0e1ec81b9421e321e9c386f4267525f0edd690e0b88a694b56525"
+    },
+    {
+      "module": "test_assurance_integration",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_assurance_integration",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 19,
+      "seconds": 393.015,
+      "log": "validation/refinements-py39/test_assurance_integration.log",
+      "sha256": "ccdbf511effd55efd8b46d61c53e9267e21dc553dd0a62f85a5572376aee57dd"
+    },
+    {
+      "module": "test_assurance_quality",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_assurance_quality",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 26,
+      "seconds": 11.266,
+      "log": "validation/refinements-path-py39/test_assurance_quality.log",
+      "sha256": "acedc33bd9d8f71c57eabdaa198d86404c687932346d659d82bb0f47834b7b56"
+    },
+    {
+      "module": "test_boundary",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_boundary",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 13,
+      "seconds": 175.203,
+      "log": "validation/refinements-py39/test_boundary.log",
+      "sha256": "523ac175f559c27f51f653ad085cf81028fdbb012806ddfd570de2992f65d4a4"
+    },
+    {
+      "module": "test_clarify_deadline",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_clarify_deadline",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 8,
+      "seconds": 14.406,
+      "log": "validation/refinements-py39/test_clarify_deadline.log",
+      "sha256": "19036f431c7aba857334db3cda83ac41a1dd09c824da93f6691dc75d263971d8"
+    },
+    {
+      "module": "test_controller_plan_errors",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_controller_plan_errors",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 4,
+      "seconds": 18.094,
+      "log": "validation/refinements-py39/test_controller_plan_errors.log",
+      "sha256": "4c7e32c34a2718dea92408d6715dc2c90214ee1bc1ff339fdccfc50419ae8e8c"
+    },
+    {
+      "module": "test_controller_refinements",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_controller_refinements",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 7,
+      "seconds": 89.735,
+      "log": "validation/refinements-path-py39/test_controller_refinements.log",
+      "sha256": "a256707beb51d064c9903cd743d969b2d5e149d1d965f441adf626f137fec995"
+    },
+    {
+      "module": "test_data_checks",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_data_checks",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 20,
+      "seconds": 5.766,
+      "log": "validation/refinements-py39/test_data_checks.log",
+      "sha256": "3602fcc510275a91373e60358a588ce7cc27e1f83239533fdb3daa601acb350b"
+    },
+    {
+      "module": "test_data_flow",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_data_flow",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 4,
+      "seconds": 174.844,
+      "log": "validation/refinements-py39/test_data_flow.log",
+      "sha256": "8974651ea1414612155b2c09dffe2c7d2ff72e0a1a12293cde9ab5ba80db91c7"
+    },
+    {
+      "module": "test_deadline_160",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_deadline_160",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 9,
+      "seconds": 12.391,
+      "log": "validation/refinements-py39/test_deadline_160.log",
+      "sha256": "de5c47acfdab43573277719f8eb5abc5edb194c1067cc8f5ecb9a2fc2d9fa87e"
+    },
+    {
+      "module": "test_development_checks",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_development_checks",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 29,
+      "seconds": 38.422,
+      "log": "validation/refinements-py39/test_development_checks.log",
+      "sha256": "16011f2f75a85a42cb8184e90934c2ae76d0a91d0a562bd436262cf1a76ba005"
+    },
+    {
+      "module": "test_development_documents",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_development_documents",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 23,
+      "seconds": 3.312,
+      "log": "validation/refinements-py39/test_development_documents.log",
+      "sha256": "80396f54bd49f36080afe2892b18e59e08e6ef98cf04492b8f7114e3850d035b"
+    },
+    {
+      "module": "test_development_handoff",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_development_handoff",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 5,
+      "seconds": 22.265,
+      "log": "validation/refinements-py39/test_development_handoff.log",
+      "sha256": "e5cf21f18806e6b7c2210109b976f3f30bcecea80ebe3d8acab744df520a202f"
+    },
+    {
+      "module": "test_development_integration",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_development_integration",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 7,
+      "seconds": 376.093,
+      "log": "validation/refinements-py39/test_development_integration.log",
+      "sha256": "51a95aad9c487fd832b55a5105b499ef5f2159e1d3008bff7ca7c3d2fc102159"
+    },
+    {
+      "module": "test_development_readiness",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_development_readiness",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 13,
+      "seconds": 119.875,
+      "log": "validation/refinements-path-py39/test_development_readiness.log",
+      "sha256": "c783e842850788fad802dee829fef3413da19a30ec5074e4e74cae657ab067a8"
+    },
+    {
+      "module": "test_development_recovery",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_development_recovery",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 12,
+      "seconds": 69.546,
+      "log": "validation/refinements-py39/test_development_recovery.log",
+      "sha256": "64100b51985856891711b047bcc492a24fc0a17a1134a9099b62e8430f5533f9"
+    },
+    {
+      "module": "test_development_runtime",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_development_runtime",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 26,
+      "seconds": 47.453,
+      "log": "validation/refinements-py39/test_development_runtime.log",
+      "sha256": "0d709d06966b8a8eec22c62fa615bc75b459b8c474240e24bba9d419acd57b34"
+    },
+    {
+      "module": "test_document_retry",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_document_retry",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 14,
+      "seconds": 241.235,
+      "log": "validation/refinements-py39/test_document_retry.log",
+      "sha256": "94fe7fc2b22e1e5fe0df3a42ae8c4d1d9a12c1724e607983137cf7ab8c507d88"
+    },
+    {
+      "module": "test_document_validation",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_document_validation",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 2,
+      "seconds": 0.844,
+      "log": "validation/refinements-py39/test_document_validation.log",
+      "sha256": "98435d2dabbe94f94e8d9e82a6678faa8c560c94c6f89deae23eaaffa6a63f6d"
+    },
+    {
+      "module": "test_functional",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_functional",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 11,
+      "seconds": 271.859,
+      "log": "validation/refinements-py39/test_functional.log",
+      "sha256": "dc0d4600b64b5330af48f6ad5c138bf6bda2a5b20da02de44cb121fe087901f2"
+    },
+    {
+      "module": "test_functional_registration",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_functional_registration",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 4,
+      "seconds": 78.657,
+      "log": "validation/refinements-py39/test_functional_registration.log",
+      "sha256": "284311ebff89fab451f677662ab021dd4088ba853acdba0f5002e3ca6539de43"
+    },
+    {
+      "module": "test_interview",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_interview",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 9,
+      "seconds": 120.25,
+      "log": "validation/refinements-py39/test_interview.log",
+      "sha256": "4fa5fcf08b87ea431d3842f5cebff2fd4da233b222fedf7eec709585075d2c6b"
+    },
+    {
+      "module": "test_lifecycle",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_lifecycle",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 10,
+      "seconds": 4.937,
+      "log": "validation/refinements-lifecycle-py39/test_lifecycle.log",
+      "sha256": "8f66b69612617b29f5216060c033abe568d860227040371282421b319cd4f6a5"
+    },
+    {
+      "module": "test_plan_refinements",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_plan_refinements",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 8,
+      "seconds": 1.531,
+      "log": "validation/refinements-py39/test_plan_refinements.log",
+      "sha256": "db989c401b04406e4047f69f0fa507389338c2036e9e1c62ced5faba4b0ddcf5"
+    },
+    {
+      "module": "test_problem_time",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_problem_time",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 15,
+      "seconds": 4.906,
+      "log": "validation/refinements-py39/test_problem_time.log",
+      "sha256": "c84a4a9bd83ca46e55205f283888e3cf5b5bdeeb0fa028367aebdd24d673882c"
+    },
+    {
+      "module": "test_python_version",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_python_version",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 1,
+      "seconds": 0.781,
+      "log": "validation/refinements-py39/test_python_version.log",
+      "sha256": "687f40156d50797630d49230cb556306b85af7f75dbbe6492bb6bcbd5ed7d330"
+    },
+    {
+      "module": "test_question_policy",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_question_policy",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 5,
+      "seconds": 31.204,
+      "log": "validation/refinements-py39/test_question_policy.log",
+      "sha256": "f1555f46cc92df5fe914423882a2bce06896d4bdfe17b1b67799ff231032e20c"
+    },
+    {
+      "module": "test_requirements",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_requirements",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 20,
+      "seconds": 228.453,
+      "log": "validation/refinements-py39/test_requirements.log",
+      "sha256": "43e65ffc35beaf61168845fd0154f4063e8b259526b00f9e91a09eb782c8c871"
+    },
+    {
+      "module": "test_runtime_support",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_runtime_support",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 5,
+      "seconds": 7.953,
+      "log": "validation/refinements-py39/test_runtime_support.log",
+      "sha256": "a47f75ac4c6f10084390218fc51be3ef70eae906cf8b28f826ffe3f0ace5e410"
+    },
+    {
+      "module": "test_source_inputs",
+      "argv": [
+        "D:\\Codex\\2026-11-03\\d-codex-2026-10-31-files\\work\\py39env\\Scripts\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "test_source_inputs",
+        "-v"
+      ],
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 2,
+      "seconds": 2.375,
+      "log": "validation/refinements-py39/test_source_inputs.log",
+      "sha256": "c9006f45e5bee847182d52a1da2ebf2782624ff28e9a9c0cd4d8cccbc65b49e6"
+    }
+  ],
+  "validation_strategy": "Full regression plus targeted final tests after the effective-PATH correction and unchanged lifecycle rerun after a Windows temporary-file cleanup error. Repeated tests counted once.",
+  "original_full_run": "validation/refinements-py39/summary.json",
+  "final_targeted_run": "validation/refinements-path-py39/summary.json",
+  "lifecycle_rerun": "validation/refinements-lifecycle-py39/summary.json",
+  "changed_since_full_run_started": [
+    "harness-kit/.harness/assurance_quality.py",
+    "harness-kit/.harness/tests/test_assurance_quality.py"
+  ],
+  "revalidated_modules": [
+    "test_assurance_quality",
+    "test_controller_refinements",
+    "test_development_readiness",
+    "test_lifecycle"
+  ],
+  "sources_unchanged_note": "The final targeted test run and all later release files match source_sha256. The full run began before the two-file PATH correction."
+}

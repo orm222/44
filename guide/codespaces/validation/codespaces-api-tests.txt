@@ -1,0 +1,11 @@
+test_create_uses_bound_parameters_and_returns_committed_result (test_api.ApiTests) ... ok
+test_database_failure_is_503_without_connection_details (test_api.ApiTests) ... ok
+test_invalid_text_is_rejected_before_database_access (test_api.ApiTests) ... ok
+test_list_returns_database_rows (test_api.ApiTests) ... ok
+test_readiness_requires_database_and_schema (test_api.ApiTests) ... ok
+test_unicode_and_sql_like_text_remain_a_parameter (test_api.ApiTests) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.594s
+
+OK

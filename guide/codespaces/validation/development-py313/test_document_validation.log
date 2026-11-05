@@ -1,0 +1,7 @@
+test_empty_whitespace_and_wrong_type_are_rejected_for_both_documents (test_document_validation.DocumentValidationTests.test_empty_whitespace_and_wrong_type_are_rejected_for_both_documents) ... ok
+test_nonempty_korean_document_is_preserved (test_document_validation.DocumentValidationTests.test_nonempty_korean_document_is_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.009s
+
+OK

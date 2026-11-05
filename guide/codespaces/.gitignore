@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.svelte-kit/
+build/
+.secrets/
+.env
+backups/
+.checks/
+app-project/.harness/
+problem-project/.harness/

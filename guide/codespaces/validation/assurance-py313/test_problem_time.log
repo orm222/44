@@ -1,0 +1,21 @@
+test_actual_exit_after_complete_temp_write_recovers_same_original_timestamp (test_problem_time.ProblemTimeTests.test_actual_exit_after_complete_temp_write_recovers_same_original_timestamp) ... ok
+test_config_anchor_prevents_reset_after_receipt_deletion (test_problem_time.ProblemTimeTests.test_config_anchor_prevents_reset_after_receipt_deletion) ... ok
+test_config_limit_is_exact_and_cannot_disable_present_receipt (test_problem_time.ProblemTimeTests.test_config_limit_is_exact_and_cannot_disable_present_receipt) ... ok
+test_corrupt_transplanted_and_forged_deadline_rejected (test_problem_time.ProblemTimeTests.test_corrupt_transplanted_and_forged_deadline_rejected) ... ok
+test_crash_after_config_publication_keeps_original_start (test_problem_time.ProblemTimeTests.test_crash_after_config_publication_keeps_original_start) ... ok
+test_default_begin_is_fixed_and_repeat_does_not_rewrite_or_extend (test_problem_time.ProblemTimeTests.test_default_begin_is_fixed_and_repeat_does_not_rewrite_or_extend) ... ok
+test_existing_receipt_supplies_missing_anchor_and_changed_anchor_is_rejected (test_problem_time.ProblemTimeTests.test_existing_receipt_supplies_missing_anchor_and_changed_anchor_is_rejected) ... ok
+test_expiry_includes_wait_and_status_remains_readable (test_problem_time.ProblemTimeTests.test_expiry_includes_wait_and_status_remains_readable) ... ok
+test_explicit_timestamp_counts_prior_waiting_and_accepts_equivalent_timezone (test_problem_time.ProblemTimeTests.test_explicit_timestamp_counts_prior_waiting_and_accepts_equivalent_timezone) ... ok
+test_future_timezone_missing_and_nonfinite_times_rejected_without_receipt (test_problem_time.ProblemTimeTests.test_future_timezone_missing_and_nonfinite_times_rejected_without_receipt) ... ok
+test_invalid_requested_budget_and_clock_rollback_rejected (test_problem_time.ProblemTimeTests.test_invalid_requested_budget_and_clock_rollback_rejected) ... ok
+test_missing_legacy_receipt_and_required_or_deleted_receipt (test_problem_time.ProblemTimeTests.test_missing_legacy_receipt_and_required_or_deleted_receipt) ... ok
+test_partial_or_unexpected_pending_config_is_preserved_and_rejected (test_problem_time.ProblemTimeTests.test_partial_or_unexpected_pending_config_is_preserved_and_rejected) ... ok
+test_pending_config_cannot_replace_changed_original_config (test_problem_time.ProblemTimeTests.test_pending_config_cannot_replace_changed_original_config) ... ok
+test_start_cli_obeys_existing_operation_lock (test_problem_time.ProblemTimeTests.test_start_cli_obeys_existing_operation_lock) ... Problem clock stopped: Another harness operation is active: requirements
+ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 5.632s
+
+OK

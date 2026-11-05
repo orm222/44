@@ -1,0 +1,4 @@
+# Reference entrypoint; build/secret paths are resolved beside the included file.
+# Prefer running from starters/web-postgres as documented there.
+include:
+  - ../../../../starters/web-postgres/compose.yaml

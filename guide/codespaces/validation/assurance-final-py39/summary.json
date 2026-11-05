@@ -1,0 +1,92 @@
+{
+  "modules": [
+    {
+      "module": "test_assurance_browser",
+      "exit_code": 0,
+      "tests": 14,
+      "skipped": 0,
+      "seconds": 147.515,
+      "log": "validation/assurance-final-py39/test_assurance_browser.log",
+      "sha256": "5be5e77e769ecdcfe64dd86b96db560fe4fbe651e57b7d8fca22856abb3904d3",
+      "test_ids": [
+        "test_assurance_browser.BrowserAssuranceTests.test_contract_rejects_external_origins_arbitrary_js_and_unbounded_cases",
+        "test_assurance_browser.BrowserAssuranceTests.test_simulated_success_has_both_viewports_and_server_cleanup",
+        "test_assurance_browser.BrowserAssuranceTests.test_success_is_reused_without_restarting_owned_server_or_probe",
+        "test_assurance_browser.BrowserAssuranceTests.test_missing_screenshot_cannot_pass_historical_verification",
+        "test_assurance_browser.BrowserAssuranceTests.test_unknown_server_exit_never_relaunches_or_kills_a_pid",
+        "test_assurance_browser.BrowserAssuranceTests.test_report_publication_interruption_recovers_without_new_processes",
+        "test_assurance_browser.BrowserAssuranceTests.test_ignored_source_mutation_blocks_and_cleans_server",
+        "test_assurance_browser.BrowserAssuranceTests.test_control_mutation_raises_after_cleanup_and_preserves_user_bytes",
+        "test_assurance_browser.BrowserAssuranceTests.test_existing_service_port_is_not_reused_or_stopped",
+        "test_assurance_browser.BrowserAssuranceTests.test_expired_original_deadline_prevents_start",
+        "test_assurance_browser.BrowserAssuranceTests.test_simulated_dom_failure_is_fail_and_preserves_screenshots",
+        "test_assurance_browser.BrowserAssuranceTests.test_missing_server_is_blocked_without_unowned_cleanup",
+        "test_assurance_browser.BrowserAssuranceTests.test_production_probe_missing_dependency_is_blocked_without_installing",
+        "test_assurance_browser.BrowserAssuranceTests.test_probe_mock_waits_for_dom_text_and_records_http_errors"
+      ]
+    },
+    {
+      "module": "test_assurance_data",
+      "exit_code": 0,
+      "tests": 22,
+      "skipped": 1,
+      "seconds": 7.094,
+      "log": "validation/assurance-final-py39/test_assurance_data.log",
+      "sha256": "8ecf0955de71bed9ca8a530656ae2b0d961023ba4b02945f8e084f4f1ba6ee68",
+      "test_ids": [
+        "test_assurance_data.AssuranceDataTests.test_many_to_one_detects_master_duplicates_and_join_row_inflation",
+        "test_assurance_data.AssuranceDataTests.test_one_to_many_is_allowed_when_declared_and_expected_rows_match",
+        "test_assurance_data.AssuranceDataTests.test_relationship_constraints_are_directional",
+        "test_assurance_data.AssuranceDataTests.test_unmatched_left_and_unused_master_are_reported_separately",
+        "test_assurance_data.AssuranceDataTests.test_blank_composite_keys_never_join_even_when_explicitly_allowed",
+        "test_assurance_data.AssuranceDataTests.test_ids_preserve_leading_zeros_and_whitespace",
+        "test_assurance_data.AssuranceDataTests.test_duplicate_or_missing_headers_are_blocked",
+        "test_assurance_data.AssuranceDataTests.test_invalid_encoding_and_malformed_rows_are_blocked",
+        "test_assurance_data.AssuranceDataTests.test_exact_duplicate_input_occurrences_are_preserved_across_parts",
+        "test_assurance_data.AssuranceDataTests.test_same_total_rows_with_different_ids_still_fails",
+        "test_assurance_data.AssuranceDataTests.test_deduplication_or_double_assignment_requires_accounting",
+        "test_assurance_data.AssuranceDataTests.test_empty_parts_allowed_but_missing_parts_or_empty_input_are_not_passes",
+        "test_assurance_data.AssuranceDataTests.test_blank_ledger_ids_cannot_prove_identity_even_when_counts_match",
+        "test_assurance_data.AssuranceDataTests.test_composite_keys_have_no_delimiter_collision",
+        "test_assurance_data.AssuranceDataTests.test_contracts_reject_outside_paths_inferred_policies_and_duplicate_parts",
+        "test_assurance_data.AssuranceDataTests.test_hashes_describe_original_bytes_and_inputs_are_not_changed",
+        "test_assurance_data.AssuranceDataTests.test_row_byte_and_total_limits_fail_without_truncation",
+        "test_assurance_data.AssuranceDataTests.test_examples_are_bounded_and_long_ids_are_only_shortened_for_display",
+        "test_assurance_data.AssuranceDataTests.test_hardlinked_input_is_rejected",
+        "test_assurance_data.AssuranceDataTests.test_redirected_artifact_file_is_rejected",
+        "test_assurance_data.AssuranceDataTests.test_empty_configuration_is_explicitly_not_applicable",
+        "test_assurance_data.AssuranceDataTests.test_strict_schemas_are_self_contained_without_min_length"
+      ]
+    },
+    {
+      "module": "test_assurance_integration",
+      "exit_code": 0,
+      "tests": 17,
+      "skipped": 0,
+      "seconds": 126.17,
+      "log": "validation/assurance-final-py39/test_assurance_integration.log",
+      "sha256": "02637751df7b325fd522da08985ae5b283715903a92a971f7dd976caeae50cfe",
+      "test_ids": [
+        "test_assurance_integration.AssuranceIntegrationTests.test_real_subprocess_creates_ledgers_and_algorithm_measurements",
+        "test_assurance_integration.AssuranceIntegrationTests.test_only_completed_owner_tasks_are_checked",
+        "test_assurance_integration.AssuranceIntegrationTests.test_unconfigured_or_not_yet_applicable_checks_are_not_reported_as_test_pass",
+        "test_assurance_integration.AssuranceIntegrationTests.test_wrong_ids_fail_and_return_the_responsible_task",
+        "test_assurance_integration.AssuranceIntegrationTests.test_bad_algorithm_result_fails_even_with_valid_producer_exit",
+        "test_assurance_integration.AssuranceIntegrationTests.test_missing_or_malformed_generated_ledgers_request_implementation_fix",
+        "test_assurance_integration.AssuranceIntegrationTests.test_successful_probe_reuse_does_not_launch_a_second_process",
+        "test_assurance_integration.AssuranceIntegrationTests.test_artifact_tampering_prevents_reuse_and_evidence_verification",
+        "test_assurance_integration.AssuranceIntegrationTests.test_changed_source_cannot_borrow_prior_measurement",
+        "test_assurance_integration.AssuranceIntegrationTests.test_missing_exit_evidence_blocks_reexecution",
+        "test_assurance_integration.AssuranceIntegrationTests.test_original_deadline_blocks_new_and_cached_stage_progress",
+        "test_assurance_integration.AssuranceIntegrationTests.test_validation_rejects_missing_owner_escape_and_unbounded_probe",
+        "test_assurance_integration.AssuranceIntegrationTests.test_new_model_schema_requires_explicit_assurance_classification",
+        "test_assurance_integration.AssuranceIntegrationTests.test_web_requires_browser_and_nonweb_cannot_enable_one",
+        "test_assurance_integration.AssuranceIntegrationTests.test_web_browser_is_called_only_at_final_and_blocking_result_is_preserved",
+        "test_assurance_integration.AssuranceIntegrationTests.test_browser_blocked_retry_uses_new_attempt_then_reuses_successful_driver_evidence",
+        "test_assurance_integration.AssuranceIntegrationTests.test_browser_unproven_cleanup_does_not_start_another_attempt"
+      ]
+    }
+  ],
+  "passed": true,
+  "label": "py39"
+}

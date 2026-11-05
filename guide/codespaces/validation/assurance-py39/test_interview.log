@@ -1,0 +1,14 @@
+test_actual_answer_and_two_explicit_approvals_finish_without_development (test_interview.InterviewTests) ... ok
+test_changed_interview_invalidates_both_approvals_and_requires_regeneration (test_interview.InterviewTests) ... ok
+test_default_root_api_and_unstarted_status_are_read_only (test_interview.InterviewTests) ... ok
+test_dot_relative_interview_link_resolves_to_one_bound_source (test_interview.InterviewTests) ... ok
+test_generated_output_and_original_spec_cannot_be_used_as_interview (test_interview.InterviewTests) ... ok
+test_initial_state_hashes_interview_and_model_must_report_using_it (test_interview.InterviewTests) ... ok
+test_missing_interview_or_missing_source_reference_stops_before_model (test_interview.InterviewTests) ... ok
+test_separate_project_needs_inputs_and_config_but_no_copied_runtime (test_interview.InterviewTests) ... ok
+test_start_before_input_files_and_time_status_never_call_the_model (test_interview.InterviewTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 183.897s
+
+OK

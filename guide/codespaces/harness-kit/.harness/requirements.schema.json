@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["requirements_markdown"],
+  "properties": {
+    "requirements_markdown": {"type": "string"}
+  }
+}

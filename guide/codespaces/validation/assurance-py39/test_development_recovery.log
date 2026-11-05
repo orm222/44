@@ -1,0 +1,33 @@
+[AGENT] implementer / 0001-215d7b2de2b0 — 실행 또는 저장된 결과 복구
+[AGENT] coordinator / 0001-abdba90994dd — 실행 또는 저장된 결과 복구
+[STEP] IMPLEMENT
+[AGENT] implementer / 0001-a663621ac2d1 — 실행 또는 저장된 결과 복구
+[STEP] IMPLEMENT
+[AGENT] implementer / 0002-b9560acd5252 — 실행 또는 저장된 결과 복구
+[STEP] IMPLEMENT
+[AGENT] implementer / 0003-a69ed6c01bf7 — 실행 또는 저장된 결과 복구
+[AGENT] implementer / 0001-e4c0eae2342b — 실행 또는 저장된 결과 복구
+[AGENT] implementer / 0001-e4c0eae2342b — 실행 또는 저장된 결과 복구
+[AGENT] implementer / 0001-7190b743441d — 실행 또는 저장된 결과 복구
+[AGENT] implementer / 0001-7190b743441d — 실행 또는 저장된 결과 복구
+[AGENT] implementer / 0001-281ca65eb09a — 실행 또는 저장된 결과 복구
+[AGENT] implementer / 0001-d5c496477f23 — 실행 또는 저장된 결과 복구
+[AGENT] implementer / 0001-d5c496477f23 — 실행 또는 저장된 결과 복구
+test_cached_agent_result_refuses_removed_evidence (test_development_recovery.DevelopmentRecoveryTests) ... ok
+test_failed_plan_call_counts_before_attempt_and_cannot_repeat_over_budget (test_development_recovery.DevelopmentRecoveryTests) ... ok
+test_human_explanation_allows_escaped_pipe_but_protects_code_columns (test_development_recovery.DevelopmentRecoveryTests) ... ok
+test_invalid_generated_flow_rolls_back_and_stops_after_three_attempts (test_development_recovery.DevelopmentRecoveryTests) ... ok
+test_mutation_pending_before_journal_does_not_adopt_unexpected_ignored_edit (test_development_recovery.DevelopmentRecoveryTests) ... ok
+test_mutation_replay_after_publication_before_phase_transition_is_idempotent (test_development_recovery.DevelopmentRecoveryTests) ... ok
+test_mutation_resumes_after_first_of_two_files_without_losing_originals (test_development_recovery.DevelopmentRecoveryTests) ... ok
+test_stale_gate_token_or_ignored_edit_cannot_approve (test_development_recovery.DevelopmentRecoveryTests) ... Development stopped: 예상하지 못한 사용자 파일 변경: node_modules/lib.py
+ok
+test_successful_worker_recovers_when_controller_result_save_is_interrupted (test_development_recovery.DevelopmentRecoveryTests) ... ok
+test_successful_worker_survives_incomplete_controller_intent_preparation (test_development_recovery.DevelopmentRecoveryTests) ... ok
+test_successful_worker_survives_partial_controller_state_publication (test_development_recovery.DevelopmentRecoveryTests) ... ok
+test_unknown_exit_keeps_active_call_and_does_not_launch_again (test_development_recovery.DevelopmentRecoveryTests) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 152.529s
+
+OK

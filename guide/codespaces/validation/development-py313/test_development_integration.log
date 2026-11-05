@@ -1,0 +1,112 @@
+[AGENT] coordinator / 0001-f50b0c849aac — 실행 또는 저장된 결과 복구
+[STEP] PLAN_REVIEW
+[AGENT] reviewer / 0002-245fb166373b — 실행 또는 저장된 결과 복구
+[STEP] RED
+[AGENT] implementer / 0003-36c283750000 — 실행 또는 저장된 결과 복구
+[STEP] RED_CHECK
+[CHECK] 1-ADD-red-0 / expected=fail
+[STEP] IMPLEMENT
+[AGENT] implementer / 0004-bcff437bf665 — 실행 또는 저장된 결과 복구
+[STEP] TEST
+[CHECK] 1-ADD-0 / expected=pass
+[STEP] REVIEW
+[AGENT] reviewer / 0005-a3f47a486059 — 실행 또는 저장된 결과 복구
+[STEP] DOCKER
+[AGENT] implementer / 0006-190af326a1b9 — 실행 또는 저장된 결과 복구
+[STEP] DOCKER_CHECK
+[CHECK] 1-docker-0-regression / expected=pass
+[STEP] FINAL_REVIEW
+[AGENT] reviewer / 0007-62e63442962a — 실행 또는 저장된 결과 복구
+[STEP] UNDERSTANDING
+[AGENT] reviewer / 0008-b3bdaafbc2f9 — 실행 또는 저장된 결과 복구
+[STEP] DELIVER
+[AGENT] coordinator / 0001-1b3bf5ed27d1 — 실행 또는 저장된 결과 복구
+[STEP] PLAN_REVIEW
+[AGENT] reviewer / 0002-9d03355c8143 — 실행 또는 저장된 결과 복구
+[STEP] RED
+[AGENT] implementer / 0003-9236792dd726 — 실행 또는 저장된 결과 복구
+[STEP] RED_CHECK
+[CHECK] 1-ADD-red-0 / expected=fail
+[STEP] IMPLEMENT
+[AGENT] implementer / 0004-3b7bcc5252de — 실행 또는 저장된 결과 복구
+[AGENT] coordinator / 0001-95b664e1ab95 — 실행 또는 저장된 결과 복구
+[STEP] PLAN_REVIEW
+[AGENT] reviewer / 0002-b4b4aecab094 — 실행 또는 저장된 결과 복구
+[STEP] RED
+[AGENT] implementer / 0003-bc8c75ebd49b — 실행 또는 저장된 결과 복구
+[STEP] RED_CHECK
+[CHECK] 1-ADD-red-0 / expected=fail
+[STEP] IMPLEMENT
+[AGENT] implementer / 0004-f47c10635683 — 실행 또는 저장된 결과 복구
+[STEP] TEST
+[CHECK] 1-ADD-0 / expected=pass
+[STEP] REVIEW
+[AGENT] reviewer / 0005-11dba4e87d95 — 실행 또는 저장된 결과 복구
+[STEP] DOCKER
+[CHECK] 1-docker-0-regression / expected=pass
+[STEP] FINAL_REVIEW
+[AGENT] reviewer / 0007-ae29b9f57584 — 실행 또는 저장된 결과 복구
+[STEP] UNDERSTANDING
+[AGENT] coordinator / 0001-7f21df932710 — 실행 또는 저장된 결과 복구
+[STEP] PLAN_REVIEW
+[AGENT] reviewer / 0002-772bf8a874c3 — 실행 또는 저장된 결과 복구
+[STEP] RED
+[AGENT] implementer / 0003-1c7b6e5a68e0 — 실행 또는 저장된 결과 복구
+[STEP] RED_CHECK
+[CHECK] 1-ADD-red-0 / expected=fail
+[STEP] IMPLEMENT
+[AGENT] implementer / 0004-603fcf67d97c — 실행 또는 저장된 결과 복구
+[STEP] TEST
+[CHECK] 1-ADD-0 / expected=pass
+[STEP] REVIEW
+[AGENT] reviewer / 0005-3ce80e846b4e — 실행 또는 저장된 결과 복구
+[STEP] DOCKER
+[AGENT] implementer / 0006-8578cd953d47 — 실행 또는 저장된 결과 복구
+[STEP] DOCKER_CHECK
+[CHECK] 1-docker-0-regression / expected=pass
+[STEP] FINAL_REVIEW
+[AGENT] reviewer / 0007-3d3080564ae6 — 실행 또는 저장된 결과 복구
+[STEP] UNDERSTANDING
+[AGENT] reviewer / 0008-e4565a9a7b09 — 실행 또는 저장된 결과 복구
+[STEP] DELIVER
+[AGENT] coordinator / 0001-dda30439d04a — 실행 또는 저장된 결과 복구
+[STEP] PLAN_REVIEW
+[AGENT] reviewer / 0002-0c9d2dbcf7a2 — 실행 또는 저장된 결과 복구
+[AGENT] coordinator / 0001-a7861176d6c6 — 실행 또는 저장된 결과 복구
+[STEP] PLAN_REVIEW
+[AGENT] reviewer / 0002-48a79dc9a571 — 실행 또는 저장된 결과 복구
+[STEP] RED
+[AGENT] implementer / 0003-262539050b83 — 실행 또는 저장된 결과 복구
+[STEP] RED_CHECK
+[CHECK] 1-ADD-red-0 / expected=fail
+[STEP] IMPLEMENT
+[AGENT] implementer / 0004-d59c98452b9e — 실행 또는 저장된 결과 복구
+[STEP] TEST
+[CHECK] 1-ADD-0 / expected=pass
+[STEP] IMPLEMENT
+[AGENT] implementer / 0005-ea16621e1353 — 실행 또는 저장된 결과 복구
+[STEP] TEST
+[CHECK] 1-ADD-1 / expected=pass
+[STEP] IMPLEMENT
+[AGENT] implementer / 0006-f935972908ec — 실행 또는 저장된 결과 복구
+[STEP] TEST
+[CHECK] 1-ADD-2 / expected=pass
+[AGENT] coordinator / 0001-ad04b4ac8019 — 실행 또는 저장된 결과 복구
+[STEP] PLAN_REVIEW
+[AGENT] reviewer / 0002-b77c81454b5c — 실행 또는 저장된 결과 복구
+[STEP] RED
+[AGENT] implementer / 0003-33eddeffec21 — 실행 또는 저장된 결과 복구
+[STEP] RED_CHECK
+[CHECK] 1-ADD-red-0 / expected=fail
+test_deleted_successful_test_log_blocks_delivery_after_human_approval (test_development_integration.DevelopmentIntegrationTests.test_deleted_successful_test_log_blocks_delivery_after_human_approval) ... ok
+test_direction_change_is_recorded_and_blocks_the_patch (test_development_integration.DevelopmentIntegrationTests.test_direction_change_is_recorded_and_blocks_the_patch) ... ok
+test_docker_blocked_never_reaches_final_or_repeats_implementation (test_development_integration.DevelopmentIntegrationTests.test_docker_blocked_never_reaches_final_or_repeats_implementation) ... ok
+test_full_flow_real_red_green_gates_review_notes_and_delivery (test_development_integration.DevelopmentIntegrationTests.test_full_flow_real_red_green_gates_review_notes_and_delivery) ... ok
+test_reopening_waiting_gate_never_spawns_implementation_without_approval (test_development_integration.DevelopmentIntegrationTests.test_reopening_waiting_gate_never_spawns_implementation_without_approval) ... ok
+test_three_failed_implementations_stop_before_a_fourth_and_restore_source (test_development_integration.DevelopmentIntegrationTests.test_three_failed_implementations_stop_before_a_fourth_and_restore_source) ... ok
+test_unauthorized_test_mutation_stops_without_implementation_or_retry (test_development_integration.DevelopmentIntegrationTests.test_unauthorized_test_mutation_stops_without_implementation_or_retry) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 202.136s
+
+OK

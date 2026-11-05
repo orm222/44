@@ -1,0 +1,273 @@
+{
+  "label": "py313",
+  "python": "C:/Python313/python.exe",
+  "version": "Python 3.13.5",
+  "tests": 356,
+  "skipped": 1,
+  "passed": false,
+  "seconds": 1137.287,
+  "modules": [
+    {
+      "module": "test_analysis_recovery",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 25,
+      "seconds": 231.977,
+      "log": "validation\\assurance-py313\\test_analysis_recovery.log",
+      "sha256": "189433a427e02e572b79e6c9423bc73d6fc0c2a42b32767afb7858e66c1f44fe"
+    },
+    {
+      "module": "test_answer_recovery",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 10,
+      "seconds": 97.076,
+      "log": "validation\\assurance-py313\\test_answer_recovery.log",
+      "sha256": "4d9d38289d794deba373c7b8048b3106e00e95c106aa1c4f4e8e6e0d2ca7423d"
+    },
+    {
+      "module": "test_assurance_browser",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 12,
+      "seconds": 155.539,
+      "log": "validation\\assurance-py313\\test_assurance_browser.log",
+      "sha256": "29d26f9752f0b5dd63dfdf082b686ce4d6945f67a5e9aa77ce611387c618398b"
+    },
+    {
+      "module": "test_assurance_data",
+      "exit_code": 0,
+      "skipped": 1,
+      "tests": 22,
+      "seconds": 23.51,
+      "log": "validation\\assurance-py313\\test_assurance_data.log",
+      "sha256": "6bbf03e9793cf17276168f055abd2741e14cd2f2f0de4e5aebb39ae775235417"
+    },
+    {
+      "module": "test_assurance_integration",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 16,
+      "seconds": 659.628,
+      "log": "validation\\assurance-py313\\test_assurance_integration.log",
+      "sha256": "9808ee43c8d209c956b04ea40d587560bf495a03f7f9206a4ef2371e5415fa88"
+    },
+    {
+      "module": "test_assurance_quality",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 24,
+      "seconds": 13.892,
+      "log": "validation\\assurance-py313\\test_assurance_quality.log",
+      "sha256": "136572e1fc8144b7c8c3f1284e8d620082bf1275260e61c9bb887f7ad3332da3"
+    },
+    {
+      "module": "test_boundary",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 13,
+      "seconds": 213.264,
+      "log": "validation\\assurance-py313\\test_boundary.log",
+      "sha256": "0fa710a8dfd36d2f96f0aae0b2a02811270f169799f5a8018ee24ee4b3690c9a"
+    },
+    {
+      "module": "test_clarify_deadline",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 8,
+      "seconds": 46.409,
+      "log": "validation\\assurance-py313\\test_clarify_deadline.log",
+      "sha256": "05d7e4ceeedb4eef075ef94fb2d0de59a093c231b94ae449701621e17f427a17"
+    },
+    {
+      "module": "test_controller_plan_errors",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 4,
+      "seconds": 45.148,
+      "log": "validation\\assurance-py313\\test_controller_plan_errors.log",
+      "sha256": "eb4cffd38cb86156caaa369983e855163e81265b87c7933fe2cefba8c2a82624"
+    },
+    {
+      "module": "test_data_checks",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 20,
+      "seconds": 11.054,
+      "log": "validation\\assurance-py313\\test_data_checks.log",
+      "sha256": "350a7afac68f684b37316c1fa353becb0993c672fc00abe85582c167920c1e97"
+    },
+    {
+      "module": "test_data_flow",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 4,
+      "seconds": 268.022,
+      "log": "validation\\assurance-py313\\test_data_flow.log",
+      "sha256": "0b92f9a257edaefd59fb6660b6932ff8c23e75ff56717d5d75618be9e2678840"
+    },
+    {
+      "module": "test_development_checks",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 29,
+      "seconds": 94.233,
+      "log": "validation\\assurance-py313\\test_development_checks.log",
+      "sha256": "52bfe455843ff1721d5e7ac497cabd7f46135bd6d7bee08db52c99496a68d510"
+    },
+    {
+      "module": "test_development_documents",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 21,
+      "seconds": 3.808,
+      "log": "validation\\assurance-py313\\test_development_documents.log",
+      "sha256": "cd4a7ce1765db652a844511c670892832347dbeaabe6d83b6d8d167ba0ec75c7"
+    },
+    {
+      "module": "test_development_handoff",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 5,
+      "seconds": 48.649,
+      "log": "validation\\assurance-py313\\test_development_handoff.log",
+      "sha256": "3f331966c56ff1020ffce8b1dd8fc783fc6ec14b2cf0fa0cff7e4ff7a8d15c33"
+    },
+    {
+      "module": "test_development_integration",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 7,
+      "seconds": 613.999,
+      "log": "validation\\assurance-py313\\test_development_integration.log",
+      "sha256": "6f93955bd29b3834b74c62ec11faad1cafad02dd89e6542bc1db63d10e6c7a5f"
+    },
+    {
+      "module": "test_development_recovery",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 12,
+      "seconds": 198.478,
+      "log": "validation\\assurance-py313\\test_development_recovery.log",
+      "sha256": "ca3973f8107add76994115e03b49f21265dfdbddd3fea953dfc98d4787d6ee8b"
+    },
+    {
+      "module": "test_development_runtime",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 26,
+      "seconds": 84.07,
+      "log": "validation\\assurance-py313\\test_development_runtime.log",
+      "sha256": "5a25941c48e8b3075f44cbd27adb1514de8cc1296ab5598491b8bc615c4b5de7"
+    },
+    {
+      "module": "test_document_retry",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 14,
+      "seconds": 276.421,
+      "log": "validation\\assurance-py313\\test_document_retry.log",
+      "sha256": "d58eaf47a851d54c7d3ce3a48ce9a11c4a7c60340594faee0b290d0eaea89bf0"
+    },
+    {
+      "module": "test_document_validation",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 2,
+      "seconds": 1.633,
+      "log": "validation\\assurance-py313\\test_document_validation.log",
+      "sha256": "2ed9ce585d4a1e82e1473a50e5487773ac71e31f941ab2eb718bf276145e6127"
+    },
+    {
+      "module": "test_functional",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 11,
+      "seconds": 324.019,
+      "log": "validation\\assurance-py313\\test_functional.log",
+      "sha256": "222a2056a0403f03e761cdfd3cb69607dedc24a344c86536c3adf4ade98a32b9"
+    },
+    {
+      "module": "test_functional_registration",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 4,
+      "seconds": 99.58,
+      "log": "validation\\assurance-py313\\test_functional_registration.log",
+      "sha256": "f733f17cfe67ac58ad6eeeb52af2d46bb22307642bf620d535f921b0d17c0729"
+    },
+    {
+      "module": "test_interview",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 9,
+      "seconds": 198.147,
+      "log": "validation\\assurance-py313\\test_interview.log",
+      "sha256": "b73179dfa40c402a9d20ea306db2a4764381745a3de5f03d914aec7dfcbb74cd"
+    },
+    {
+      "module": "test_lifecycle",
+      "exit_code": 1,
+      "skipped": 0,
+      "tests": 10,
+      "seconds": 10.231,
+      "log": "validation\\assurance-py313\\test_lifecycle.log",
+      "sha256": "a519898b340f02c47745e0f2412c1e6fb4471e1345a36cfd5d60d9ce57a777b8"
+    },
+    {
+      "module": "test_problem_time",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 15,
+      "seconds": 7.426,
+      "log": "validation\\assurance-py313\\test_problem_time.log",
+      "sha256": "dc0079a3888745cc78efad764978a43a066c9205bb10211a353ea54d61ccf5ef"
+    },
+    {
+      "module": "test_python_version",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 1,
+      "seconds": 1.807,
+      "log": "validation\\assurance-py313\\test_python_version.log",
+      "sha256": "7e5e6c9ff8e7537bc1d2138dfc70ffcb495f0d1a73819d7ed66932fe7d5c0918"
+    },
+    {
+      "module": "test_question_policy",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 5,
+      "seconds": 63.477,
+      "log": "validation\\assurance-py313\\test_question_policy.log",
+      "sha256": "34cc705bd1cfaaec67996b2d9995072ad0fbfb41020ea62fbfc0213c07b70dc4"
+    },
+    {
+      "module": "test_requirements",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 20,
+      "seconds": 216.451,
+      "log": "validation\\assurance-py313\\test_requirements.log",
+      "sha256": "023e2257cae9e6e426940c8522cad35dd55e071f67a25f55e3c96f23caac9c10"
+    },
+    {
+      "module": "test_runtime_support",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 5,
+      "seconds": 20.399,
+      "log": "validation\\assurance-py313\\test_runtime_support.log",
+      "sha256": "96a586fdf0ec294bfa6abf4bbb3e1178045b138c1f8b096db47aa3625c259858"
+    },
+    {
+      "module": "test_source_inputs",
+      "exit_code": 0,
+      "skipped": 0,
+      "tests": 2,
+      "seconds": 6.073,
+      "log": "validation\\assurance-py313\\test_source_inputs.log",
+      "sha256": "21af2fe149161c5e3aa7f80ea14a8adb409f28f508f7ea0e208d2edf77e825f4"
+    }
+  ],
+  "supplemental_modules": []
+}

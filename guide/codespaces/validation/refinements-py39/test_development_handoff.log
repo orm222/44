@@ -1,0 +1,12 @@
+test_real_confirmations_required_and_app_writes_do_not_invalidate_them (test_development_handoff.DevelopmentHandoffTests) ... ok
+test_legacy_requirements_remains_document_only (test_development_handoff.LauncherRoutingTests) ... ok
+test_new_commands_reject_old_python_before_files_are_created (test_development_handoff.LauncherRoutingTests) ... Harness requires Python 3.9 or later
+Harness requires Python 3.9 or later
+ok
+test_run_does_not_develop_before_document_approval (test_development_handoff.LauncherRoutingTests) ... ok
+test_run_query_never_launches_model_or_development (test_development_handoff.LauncherRoutingTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 19.824s
+
+OK

@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "questions", "unresolved", "references"],
+  "properties": {
+    "version": {"type": "integer", "enum": [1]},
+    "questions": {
+      "type": "array", "maxItems": 8,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["template", "question", "decides", "follow_up_to"],
+        "properties": {
+          "template": {"type": "string", "enum": ["T01", "T02", "T03", "T04", "T05", "T06", "T07", "T08", "T09", "T10", "T11", "T12", "T13", "T14", "T15"]},
+          "question": {"type": "string"}, "decides": {"type": "string"},
+          "follow_up_to": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "unresolved": {"type": "array", "items": {"type": "string"}},
+    "references": {"type": "array", "items": {"type": "string"}}
+  }
+}

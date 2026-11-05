@@ -1,0 +1,18 @@
+test_actual_answers_require_reanalysis_and_ambiguous_answers_get_t12 (test_boundary.BoundaryTests) ... ok
+test_answer_document_and_metadata_tampering_fail_closed (test_boundary.BoundaryTests) ... ok
+test_check_ready_resolves_the_config_actual_project (test_boundary.BoundaryTests) ... ok
+test_model_cannot_write_answers_or_leave_unactionable_unresolved_items (test_boundary.BoundaryTests) ... ok
+test_nine_unknowns_take_two_question_rounds_then_separate_ready_analysis (test_boundary.BoundaryTests) ... ok
+test_no_questions_becomes_ready_without_tasks_acceptance_or_model_confirmation (test_boundary.BoundaryTests) ... ok
+test_nonzero_cli_and_readonly_source_mutation_invalidate_prior_ready (test_boundary.BoundaryTests) ... ok
+test_question_placeholders_and_source_locations_rejected_but_api_variables_preserved (test_boundary.BoundaryTests) ... ok
+test_spec_template_and_referenced_document_changes_invalidate_ready (test_boundary.BoundaryTests) ... ok
+test_timeout_marks_failed_and_stops_child (test_boundary.BoundaryTests) ... ok
+test_unanswered_questions_cannot_be_erased_by_a_zero_question_report (test_boundary.BoundaryTests) ... ok
+test_unknown_and_blank_answers_do_not_change_state (test_boundary.BoundaryTests) ... ok
+test_unsafe_paths_are_rejected (test_boundary.BoundaryTests) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 291.848s
+
+OK
